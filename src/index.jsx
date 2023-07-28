@@ -27,7 +27,7 @@ import SignUp from './pages/SignUp';
 import PageNotFound from './pages/PageNotFound';
 
 // import Home from './pages/Home';
-//import NFTCollection from './pages/NFTCollection';
+// import NFTCollection from './pages/NFTCollection';
 import Ads from './pages/Ads';
 import Adm from './pages/Adm';
 import AdvertiserAccess from './pages/AdvertiserAccess';

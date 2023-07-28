@@ -5,6 +5,6 @@ const getSecureLocalStorage = async () => {
   await checkUserToken();
   const infoUser = secureLocalStorage.getItem("user_information_session");
   return infoUser;
-}
+};
 
-export default await getSecureLocalStorage;
+export default getSecureLocalStorage;
