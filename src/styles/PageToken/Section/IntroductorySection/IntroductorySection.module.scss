@@ -1,0 +1,220 @@
+@import '../../../colors/colors.scss';
+.sectionMain {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  height: 608px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+
+  .containerMain {
+    display: flex;
+    width: 517px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    flex-shrink: 0;
+  }
+  .containerTitle {
+    display: flex;
+    width: 517px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    h2 {
+      color: #6a00a6;
+      font-size: 64px;
+      font-family: Montserrat;
+      font-weight: 700;
+      line-height: 115%;
+      span {
+        color: #ba02c9;
+      }
+    }
+  }
+  .containerText {
+    display: flex;
+    width: 462px;
+    flex-direction: column;
+    color: #45444c;
+
+    font-size: 18px;
+    font-family: Inter;
+    line-height: 150%;
+  }
+
+  .containerButton {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    button {
+      background-color: transparent;
+      cursor: pointer;
+      a {
+        display: flex;
+        width: 196px;
+        padding: 16px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        line-height: 150%;
+        cursor: pointer;
+      }
+    }
+    .buttonBuy {
+      background: $gradientMain;
+      color: white;
+    }
+    .buttonDeal {
+      background-color: transparent;
+      color: #6a00a6;
+      border-radius: 50px;
+      border: 2px solid #6a00a6;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .sectionMain {
+    margin-top: 200px;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    /* .containerImg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    } */
+    .containerMain {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 32px;
+      .containerTitle {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        h2 {
+          width: 100%;
+          text-align: center;
+          font-size: 40px;
+          font-weight: 700;
+          line-height: 115%;
+        }
+      }
+      .containerText {
+        width: 100%;
+        p {
+          width: 100%;
+          text-align: center;
+          font-size: 16px;
+          line-height: 150%;
+        }
+      }
+      .containerButton {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        a {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+  .sectionMain {
+    margin-top: 400px;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    .containerImg {
+      width: 60%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 1100px) {
+  .sectionMain {
+    margin-top: 500px;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    .containerMain {
+      .containerButton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          width: 100%;
+        }
+      }
+    }
+
+    .containerImg {
+      width: 70%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sectionMain {
+    margin-top: 550px;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    .containerButton {
+      button {
+        width: 100%;
+      }
+    }
+    .containerImg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 601px) {
+  .sectionMain {
+    margin-top: 280px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sectionMain {
+    margin-top: 280px;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    .containerImg {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

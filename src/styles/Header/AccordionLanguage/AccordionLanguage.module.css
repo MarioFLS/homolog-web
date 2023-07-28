@@ -1,0 +1,54 @@
+.sectionMain {
+  display: flex;
+  padding: 0px 8px;
+}
+.sectionMain .accordion {
+  display: flex;
+  width: 354px;
+  min-height: 20px;
+  height: auto;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-self: center;
+  gap: 0px;
+}
+.sectionMain .accordion .accordionSummary {
+  display: flex;
+  flex-direction: row;
+  height: -moz-min-content;
+  height: min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.sectionMain .accordion .accordionSummary .title {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.sectionMain .accordion .accordionSummary .title h1 {
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.sectionMain .accordion .accordionDefatils {
+  box-shadow: none;
+  margin-top: -10px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #45444c;
+}/*# sourceMappingURL=AccordionLanguage.module.css.map */

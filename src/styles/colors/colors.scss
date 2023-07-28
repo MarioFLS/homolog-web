@@ -1,0 +1,22 @@
+$gradientMain: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+$gradientMainHover: linear-gradient(90deg, #ba02c9 0%, #eb45aa 100%);
+
+$gradientText: linear-gradient(
+  90deg,
+  #ba02c9 1.23%,
+  #ff8a91 71.73%,
+  #ffacac 100%
+);
+
+$gradientBackground: linear-gradient(
+  90deg,
+  rgba(130, 70, 206, 0.5) 0%,
+  rgba(186, 2, 201, 0.5) 50.51%,
+  rgba(235, 69, 170, 0.5) 100%
+);
+
+@mixin gradientTextPattener {
+  background: $gradientText;
+  color: transparent;
+  background-clip: text;
+}

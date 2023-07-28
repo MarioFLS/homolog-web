@@ -1,0 +1,338 @@
+.footer {
+  width: 100%;
+  background: #6a00a6;
+  margin-top: 60px;
+  padding-top: 64px;
+}
+.footer .footerMain {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 0 8%;
+}
+.footer .footerMain .footerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  min-width: 100%;
+}
+.footer .footerMain .footerContainer .footerAboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  width: 350px;
+  height: 243px;
+}
+.footer .footerMain .footerContainer .footerAboutUs h4 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 135%;
+  color: #ffffff;
+}
+.footer .footerMain .footerContainer .footerAboutUs p {
+  width: 348px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fdecff;
+}
+.footer .footerMain .footerContainer .footerAboutUs button {
+  background-color: transparent;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #df8be6;
+  cursor: pointer;
+}
+.footer .footerMain .footerContainer .footerContact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 219px;
+  height: 195px;
+  color: #ffffff;
+}
+.footer .footerMain .footerContainer .footerContact h4 {
+  width: 219px;
+  height: 43px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 135%;
+}
+.footer .footerMain .footerContainer .footerContact p {
+  width: 296px;
+  height: 72px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.footer .footerMain .footerContainer .footerContact p a {
+  color: white;
+  text-decoration: underline;
+  font-weight: 900;
+  cursor: pointer;
+}
+.footer .footerMain .footerContainer .footerContact .socialMedia {
+  width: 296px;
+  height: 83px;
+}
+.footer .footerMain .footerContainer .footerContact .socialMedia h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #fadbfd;
+}
+.footer .footerMain .footerContainer .footerContact .socialMedia div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 24px;
+}
+.footer .footerMain .footerContainer .footerContactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 207px;
+  height: 243px;
+}
+.footer .footerMain .footerContainer .footerContactInfo h4 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 135%;
+  color: #ffffff;
+}
+.footer .footerMain .footerContainer .footerContactInfo a {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #fdecff;
+}
+.footer .footerMain .footerBack {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+  width: 100%;
+  height: 96px;
+  border-top: 1px solid #df8be6;
+}
+.footer .footerMain .footerBack h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.footer .footerMain .footerBack .socialMedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 338px;
+  height: 48px;
+}
+.footer .footerMain .footerBack .socialMedia div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px 0px;
+  gap: 24px;
+  width: 140px;
+  height: 48px;
+}
+.footer .footerMain .footerBack .socialMedia div a:hover {
+  filter: invert(19%) sepia(98%) saturate(3649%) hue-rotate(281deg) brightness(109%) contrast(135%);
+}
+.footer .footerMain .footerBack button {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px 8px 24px;
+  gap: 8px;
+  width: 200px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  cursor: pointer;
+}
+.footer .footerMain .footerBack button p {
+  width: 180px;
+}
+.footer .footerMain .footerBack button:hover {
+  filter: invert(19%) sepia(98%) saturate(3649%) hue-rotate(281deg) brightness(109%) contrast(135%);
+}
+
+@media (min-width: 900px) and (max-width: 1400px) {
+  .footer {
+    margin-top: 160px;
+  }
+  .footer .footerMain .footerContainer .footerAboutUs p {
+    width: 300px;
+    font-size: 14px;
+  }
+  .footer .footerMain .footerContainer .footerContact {
+    width: auto;
+  }
+  .footer .footerMain .footerContainer .footerContact p {
+    width: 240px;
+    font-size: 14px;
+  }
+}
+@media (min-width: 200px) and (max-width: 899px) {
+  .footer {
+    display: flex;
+    min-height: -moz-max-content;
+    min-height: max-content;
+    flex-direction: column;
+  }
+  .footer .footerMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .footer .footerMain .footerContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+  }
+  .footer .footerMain .footerContainer .footerAboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: auto;
+    order: 1;
+  }
+  .footer .footerMain .footerContainer .footerAboutUs h4 {
+    font-size: 24px;
+  }
+  .footer .footerMain .footerContainer .footerAboutUs p {
+    width: 100%;
+    font-size: 16px;
+    background-color: #6a00a6;
+  }
+  .footer .footerMain .footerContainer .footerContact {
+    display: flex;
+    order: 3;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+  }
+  .footer .footerMain .footerContainer .footerContact .socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .footer .footerMain .footerContainer .footerContact .socialMedia h5 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    text-align: center;
+    color: #fadbfd;
+  }
+  .footer .footerMain .footerContainer .footerContact .socialMedia div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .footer .footerMain .footerContainer .footerContactInfo {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 100%;
+  }
+  .footer .footerMain .footerBack {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 0;
+    width: 100%;
+    height: 80px;
+  }
+  .footer .footerMain .footerBack h5 {
+    font-size: 14px;
+  }
+  .footer .footerMain .footerBack button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 136px;
+    height: 32px;
+  }
+  .footer .footerMain .footerBack button p {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}/*# sourceMappingURL=Footer.module.css.map */

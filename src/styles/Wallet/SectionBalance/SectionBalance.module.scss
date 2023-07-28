@@ -1,0 +1,124 @@
+.sectionBalance {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #212855;
+  }
+
+  .articleBalance {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .topBalance {
+      width: max-content;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 24px;
+      background: rgba(255, 255, 255, 0.3);
+      border-radius: 20px;
+      cursor: default;
+
+      .topBalanceText {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        p {
+          width: 95px;
+          height: 24px;
+          font-family: "Inter", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #636269;
+        }
+      }
+
+      .topBalanceValues {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 131px;
+        height: 27px;
+
+        input {
+          width: 91px;
+          height: 27px;
+          font-family: "Montserrat", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 135%;
+          text-align: right;
+          color: #636269;
+          border: none;
+          outline: none;
+          text-overflow: clip;
+          cursor: default;
+        }
+
+        button {
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1980px) {
+    .sectionBalance {
+      h2 {
+        font-size: 22px;
+      }
+      .articleBalance {
+        .topBalance {
+          .topBalanceText {
+            p {
+              font-size: 14px;
+            }
+          }
+          .topBalanceValues {
+            input {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .sectionBalance {
+      h2 {
+        font-size: 20px;
+      }
+      .articleBalance {
+        .topBalance {
+          .topBalanceText {
+            p {
+              font-size: 12px;
+            }
+          }
+          .topBalanceValues {
+            input {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

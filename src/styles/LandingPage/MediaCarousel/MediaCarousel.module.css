@@ -1,0 +1,104 @@
+.sectionMedia {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px;
+  width: 100%;
+  height: 224px;
+  background: linear-gradient(90deg, #fdecff 0%, rgba(255, 231, 239, 0.5) 100%);
+  border-radius: 48px;
+}
+.sectionMedia .title {
+  width: 226px;
+  height: 108px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 115%;
+  color: #6a00a6;
+}
+.sectionMedia .containerCarousel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  width: 786px;
+  height: 96px;
+  border-radius: 24px;
+  flex: none;
+  order: 1;
+}
+.sectionMedia .containerCarousel button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media (min-width: 1600px) {
+  .sectionMedia {
+    display: flex;
+    align-items: center;
+  }
+  .sectionMedia .title {
+    width: 226px;
+    height: 108px;
+  }
+  .sectionMedia .containerCarousel {
+    gap: 40px;
+    width: 80%;
+    height: 96px;
+  }
+  .sectionMedia .containerCarousel .containerImage {
+    width: 96px;
+    margin-left: 35px;
+  }
+}
+@media (max-width: 1400px) {
+  .sectionMedia {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .sectionMedia .title {
+    width: 301px;
+    height: 32px;
+    line-height: 135%;
+    text-align: center;
+  }
+  .sectionMedia .containerCarousel {
+    width: 70%;
+    gap: 10px;
+    align-items: center;
+  }
+  .sectionMedia .containerCarousel .containerImage {
+    width: 96px;
+    margin-left: 15px;
+  }
+}
+@media (max-width: 1380px) {
+  .sectionMedia .title {
+    width: 226px;
+    height: 108px;
+  }
+}
+@media (max-width: 800px) {
+  .sectionMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 16px;
+    flex-direction: column;
+  }
+  .sectionMedia .containerCarousel {
+    width: 100%;
+  }
+  .sectionMedia .containerCarousel .containerImage {
+    width: 64px;
+  }
+  .sectionMedia .containerCarousel .containerImage img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=MediaCarousel.module.css.map */

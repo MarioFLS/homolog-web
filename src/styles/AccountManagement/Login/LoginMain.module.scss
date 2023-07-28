@@ -1,0 +1,195 @@
+@import '../../colors/colors.scss';
+.sectionLogin {
+  box-sizing: border-box;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+
+  width: 526px;
+  // height: 374px;
+
+  background: linear-gradient(
+      146.52deg,
+      rgba(253, 208, 223, 0.075) 2.11%,
+      rgba(223, 139, 230, 0.05) 100%
+    ),
+    #ffffff;
+
+  border: 1px solid #fadbfd;
+  border-radius: 24px;
+
+  .sectionText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: auto;
+
+    span {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: red;
+    }
+    h2 {
+      @include gradientTextPattener;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 115%;
+    }
+    p {
+      width: 420px;
+      height: 27px;
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #636269;
+    }
+
+    a {
+      font-weight: bold;
+      color: #45444c;
+      border-bottom: 1px solid #45444c;
+    }
+  }
+  .sectionInput {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 424px;
+    height: auto;
+
+    span {
+      margin-left: 10px;
+      margin-top: 0px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: red;
+    }
+
+    input {
+      margin-bottom: 6px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 12px 16px;
+      gap: 10px;
+      width: 424px;
+      height: 48px;
+      border: 1px solid #b7b6ba;
+      border-radius: 8px;
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #949398;
+
+      outline: none;
+
+      &:focus {
+        border: 1px solid #ba02ca;
+      }
+    }
+
+    .inputPassword {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px 16px;
+      gap: 10px;
+      padding: 0;
+      width: 424px;
+      height: 48px;
+
+      border-radius: 8px;
+      position: relative;
+
+      input {
+        background-color: transparent;
+      }
+      button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        display: flex;
+        right: 0;
+        position: absolute;
+        cursor: pointer;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .sectionButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+    width: 424px;
+    height: 56px;
+    background: $gradientMain;
+    border-radius: 100px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  .sectionButtonPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 8px;
+
+    width: 424px;
+    height: 56px;
+
+    background: #f3f3f3;
+    border-radius: 100px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ba02c9;
+    cursor: pointer;
+  }
+}

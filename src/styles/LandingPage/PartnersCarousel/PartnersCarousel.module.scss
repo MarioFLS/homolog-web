@@ -1,0 +1,124 @@
+.sectionPatners {
+  margin-top: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 64px;
+  width: 100%;
+  height: 224px;
+  background: linear-gradient(90deg, #fdecff 0%, rgba(255, 231, 239, 0.5) 100%);
+  border-radius: 48px;
+  .containerTitle {
+    width: 411px;
+    height: 92px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    color: #6a00a6;
+  }
+  .containerPatners {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 48px;
+    width: 520px;
+    height: 96px;
+    border-radius: 24px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .sectionPatners {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    .containerTitle {
+      width: 342px;
+      height: 64px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 135%;
+
+      text-align: center;
+
+      color: #6a00a6;
+    }
+    .containerPatners {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0px;
+      gap: 32px;
+
+      width: 500px;
+      height: 64px;
+
+      img {
+        width: 80px;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sectionPatners {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    .containerTitle {
+      width: 85vw;
+      height: 64px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 135%;
+
+      text-align: center;
+
+      color: #6a00a6;
+    }
+    .containerPatners {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 0px;
+      gap: 32px;
+
+      width: 85vw;
+      height: 64px;
+
+      img {
+        width: 90%;
+        height: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .sectionPatners {
+    .containerPatners {
+      gap: 20px;
+      img {
+        width: 80%;
+        height: 100%;
+      }
+    }
+  }
+}

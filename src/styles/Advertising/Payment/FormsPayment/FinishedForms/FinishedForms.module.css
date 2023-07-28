@@ -1,0 +1,29 @@
+.containerFinished {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 17px;
+}
+.containerFinished img {
+  width: 150px;
+}
+.containerFinished h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: #45444c;
+}
+.containerFinished p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #45444c;
+  width: 203px;
+}/*# sourceMappingURL=FinishedForms.module.css.map */

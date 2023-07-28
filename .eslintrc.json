@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-multiple-empty-lines": "off",
+        "eslint no-alert": "off",
+        "react/prop-types": 0,
+        "no-console": "off",
+        "no-nested-ternary": "off",
+        "camelcase": "off",
+        "jsx-a11y/label-has-associated-control": "off",
+        "quotes": "off",
+        "max-len": [
+            "off",
+            {
+                "code": 90,
+                "ignoreUrls": true,
+                "ignoreStrings": true,
+                "ignoreTemplateLiterals": true,
+                "ignoreComments": true,
+                "ignoreHTMLAttributeValues": true,
+                "ignoreHTMLTextContents": false
+            }
+        ],
+        "linebreak-style": 0,
+        "react/react-in-jsx-scope": "off",
+        "no-unreachable": "error",
+        "no-else-return": "error",
+        "no-unused-vars": "warn",
+        "consistent-return": [
+            "off",
+            {
+                "treatUndefinedAsUnspecified": true
+            }
+        ]
+    }
+}

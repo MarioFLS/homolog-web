@@ -1,0 +1,9 @@
+.containerMainAdm {
+  margin: 0 8%;
+}
+.containerMainAdm .mainAdm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 43px;
+}/*# sourceMappingURL=Adm.module.css.map */

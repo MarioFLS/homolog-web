@@ -1,0 +1,247 @@
+.sectionChart {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  justify-content: space-between;
+}
+.sectionChart .sectionChartPie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 48px;
+  gap: 16px;
+  width: 600px;
+  height: 345px;
+  background: #ffffff;
+  border: 1px solid rgba(159, 154, 168, 0.25);
+  border-radius: 24px;
+}
+.sectionChart .sectionChartPie div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  margin-bottom: -20px;
+  width: 600px;
+  height: 233.86px;
+}
+.sectionChart .sectionChartPie div p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #09090d;
+}
+.sectionChart .sectionChartPie div .chartText {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+}
+.sectionChart .sectionChartPie div .chartText h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000631;
+}
+.sectionChart .sectionChartLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 580px;
+  height: 345px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 36px 48px;
+  width: 600px;
+  height: 157px;
+  background: #ffffff;
+  border: 1px solid rgba(159, 154, 168, 0.25);
+  border-radius: 24px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 130px;
+  width: 507.14px;
+  height: 87.86px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 18px;
+  width: 147.14px;
+  height: 87.86px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLine .chartLineText {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.3556px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #3b96fc;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLine .chartLineText .textEmpyLine {
+  color: var(--neutral-neutral-1000, #09090d);
+  /* Body/Body - regular 16 */
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 150%;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000631;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #3b96fc;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText .textEmpyLine {
+  color: var(--neutral-neutral-1000, #09090d);
+  /* Body/Body - regular 16 */
+  font-size: 16px;
+  font-weight: normal;
+  font-family: Inter, sans-serif;
+  line-height: 150%;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText .chartLineTextClick {
+  margin-left: 20px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .emptychartLine {
+  width: 50px;
+  height: 50px;
+}
+.sectionChart .sectionChartLine .chartLineContainerMain #chartLineContainer {
+  gap: 70px;
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+  .sectionChart {
+    gap: 80px;
+    width: 100%;
+  }
+  .sectionChart .sectionChartPie {
+    gap: 10px;
+    width: 500px;
+  }
+  .sectionChart .sectionChartPie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    margin-bottom: -20px;
+    width: 200px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 36px 48px;
+    width: 100%;
+    height: 157px;
+  }
+}
+@media (max-width: 1280px) {
+  .sectionChart {
+    gap: 80px;
+    width: 100%;
+  }
+  .sectionChart .sectionChartPie {
+    gap: 10px;
+    width: 300px;
+  }
+  .sectionChart .sectionChartPie div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    margin-bottom: -20px;
+    width: 200px;
+  }
+  .sectionChart .sectionChartLine {
+    gap: 24px;
+    width: 400px;
+    height: 325px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain {
+    width: 400px;
+    height: 157px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer {
+    gap: 80px;
+    width: 300px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLine {
+    gap: 18px;
+    width: 147.14px;
+    height: 87.86px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000631;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    /* or 32px */
+    color: #3b96fc;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain .chartLineContainer .chartLineText .chartLineTextClick {
+    margin-left: 20px;
+  }
+  .sectionChart .sectionChartLine .chartLineContainerMain #chartLineContainer {
+    gap: 10px;
+  }
+}/*# sourceMappingURL=SectionChart.module.css.map */

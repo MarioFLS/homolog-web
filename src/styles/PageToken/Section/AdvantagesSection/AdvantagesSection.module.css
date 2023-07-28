@@ -1,0 +1,142 @@
+.sectionAdvantages {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  width: 100%;
+}
+.sectionAdvantages .sectionHeader {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.sectionAdvantages .sectionHeader h2 {
+  color: #6a00a6;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 115%;
+}
+.sectionAdvantages .containerMain {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  width: 100%;
+}
+.sectionAdvantages .containerMain .containerAdvantages {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 32px;
+}
+.sectionAdvantages .containerMain .containerAdvantages .containerInternal {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  background: #fff;
+}
+.sectionAdvantages .containerMain .containerAdvantages header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.sectionAdvantages .containerMain .containerAdvantages header h3 {
+  display: flex;
+  flex-direction: column;
+  color: #09090d;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 135%;
+}
+.sectionAdvantages .containerMain .containerAdvantages p {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  color: #09090d;
+  /* Body/Body - regular 18 */
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+.sectionAdvantages .containerMain .containerAdvantages .containerImageArrow {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.sectionAdvantages .containerMain .containerAdvantages .containerList ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.sectionAdvantages .containerMain .containerAdvantages .containerList ul li {
+  margin-left: 20px;
+  flex-direction: column;
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+
+@media (min-width: 1700px) {
+  .sectionAdvantages .containerMain .containerAdvantages header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages header h3 {
+    display: flex;
+    flex-direction: column;
+    color: #09090d;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 135%;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages p {
+    color: #09090d;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 180%;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages .containerImageArrow {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages .containerList ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages .containerList ul li {
+    margin-left: 20px;
+    flex-direction: column;
+    color: #000;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    line-height: 150%;
+  }
+}
+@media (max-width: 1120px) {
+  .sectionAdvantages {
+    flex-direction: column;
+  }
+  .sectionAdvantages .containerMain {
+    flex-direction: column;
+  }
+  .sectionAdvantages .containerMain .containerAdvantages .containerImageArrow {
+    display: none;
+  }
+}/*# sourceMappingURL=AdvantagesSection.module.css.map */

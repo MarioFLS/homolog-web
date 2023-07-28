@@ -1,0 +1,82 @@
+.containerNft {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+
+  width: 248px;
+  height: 331px;
+
+  background: #ffffff;
+
+  border: 1px solid #e8e8e9;
+  border-radius: 8px;
+  .containerNftTextInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 216px;
+    height: 67px;
+
+    .containerNftTextTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      p {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: #df8be6;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+      }
+    }
+
+    .nftName {
+      width: 159px;
+      height: 24px;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+      color: #45444c;
+    }
+    .nftowner {
+      width: 159px;
+      height: 18px;
+
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 150%;
+
+      color: #636269;
+      text-overflow: ellipsis;
+    }
+
+    .containerNftTextImage {
+      width: 216px;
+      border-radius: 4px;
+
+      img {
+        width: 216px;
+      }
+    }
+  }
+}

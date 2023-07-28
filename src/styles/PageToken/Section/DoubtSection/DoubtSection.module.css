@@ -1,0 +1,141 @@
+.sectionDoubt {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  padding-bottom: 120px;
+}
+.sectionDoubt .sectionHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  color: #6a00a6;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 115%;
+}
+.sectionDoubt .containerMain {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.sectionDoubt .containerMain .containerInternal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.sectionDoubt .containerMain .containerInternal .accordion {
+  display: flex;
+  width: 592px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  border: 1px solid #df8be6;
+  background: #fdecff;
+}
+.sectionDoubt .containerMain .containerInternal .accordion::before {
+  background-color: transparent;
+}
+.sectionDoubt .containerMain .containerInternal .accordion .accordionSumary {
+  display: flex;
+  width: 100%;
+}
+.sectionDoubt .containerMain .containerInternal .accordion .accordionSumary h4 {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 150%;
+}
+.sectionDoubt .containerMain .containerInternal .accordion .accordionDetails {
+  display: flex;
+  width: 560px;
+  flex-direction: column;
+}
+.sectionDoubt .containerMain .containerInternal .accordion .accordionDetails p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+.sectionDoubt .containerMain .containerInternal .accordion .accordionDetails p a {
+  color: #ba02c9;
+}
+
+@media (max-width: 1350px) {
+  .sectionDoubt .containerMain .containerInternal .accordion {
+    width: 80%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionSumary {
+    width: 100%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionDetails {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .sectionDoubt {
+    padding-bottom: 10px;
+  }
+  .sectionDoubt .sectionHeader {
+    width: 100%;
+    align-items: center;
+  }
+  .sectionDoubt .containerMain {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+  }
+  .sectionDoubt .containerMain .containerInternal {
+    align-items: center;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion {
+    width: 80%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionSumary {
+    width: 100%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionDetails {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .sectionDoubt .sectionHeader h2 {
+    font-size: 44px;
+  }
+}
+@media (max-width: 500px) {
+  .sectionDoubt {
+    gap: 32px;
+  }
+  .sectionDoubt .sectionHeader h2 {
+    font-size: 24px;
+    font-style: normal;
+    line-height: 135%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionSumary h4 {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 150%;
+  }
+  .sectionDoubt .containerMain .containerInternal .accordion .accordionDetails p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .sectionDoubt .containerImg {
+    width: 100%;
+  }
+  .sectionDoubt .containerImg img {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=DoubtSection.module.css.map */

@@ -1,0 +1,292 @@
+@import '../colors/colors.scss';
+
+@mixin gradientText {
+  background: $gradientText;
+  color: transparent;
+  background-clip: text;
+}
+
+@mixin patternSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    h1 {
+      width: 157px;
+      height: 32px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 135%;
+      color: #ba02c9;
+      margin-bottom: 4px;
+    }
+    .bordText {
+      width: auto;
+      display: block;
+      height: 4px;
+      background: #ba02c9;
+      border: 2px solid #ba02c9;
+      border-radius: 20px;
+    }
+  }
+  margin-top: 120px;
+}
+
+@mixin patternSectionText($hw, $hh, $pw, $ph) {
+  white-space: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    @include gradientText();
+
+    width: $hw;
+    height: $hh;
+
+    &:last-child {
+      background-color: #8a8691;
+      span {
+        background-color: green;
+      }
+    }
+  }
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 150%;
+    color: #8a8691;
+
+    width: $pw;
+    height: $ph;
+  }
+}
+
+.sectionPhone {
+  @include patternSection();
+  margin-top: 0px;
+
+  .sectionPhoneText {
+    @include patternSectionText(480px, 104px, 469px, 90px);
+    .typeWrite {
+      display: inline-flex;
+      border-right: 2px solid #ba02ca;
+
+      /* &::after {
+        content: '|';
+        display: inline-block;
+        margin-left: -10px;
+        margin-top: -5px;
+      } */
+    }
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      gap: 8px;
+
+      width: 378px;
+      height: 56px;
+
+      background: $gradientMain;
+      border-radius: 100px;
+      border: none;
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+  }
+
+  img {
+    width: 500px;
+  }
+}
+
+.sectionChange {
+  @include patternSection();
+  img {
+    border-radius: 60px;
+  }
+
+  .sectionChangeText {
+    @include patternSectionText(450px, 110px, 420px, 110px);
+    button {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 24px;
+      gap: 8px;
+      width: 424px;
+      height: 56px;
+      border: none;
+      background: $gradientMain;
+      border-radius: 50px;
+
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 150%;
+
+      text-align: center;
+
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+.sectionFinale {
+  @include patternSection();
+  img {
+    border-radius: 60px;
+  }
+  .sectionFinaleText {
+    @include patternSectionText(470px, 212px, 469px, 120px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .sectionPhone {
+    img {
+      width: 450px;
+    }
+  }
+
+  .sectionBusiness {
+    article {
+      width: 100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      h3 {
+        width: 50vw;
+        height: 30%;
+        font-size: 35px;
+      }
+    }
+  }
+
+  .sectionChange {
+    @include patternSection();
+    img {
+      width: 450px;
+    }
+
+    .sectionChangeText {
+      @include patternSectionText(450px, 90px, 420px, 110px);
+      h2 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .sectionFinale {
+    @include patternSection();
+    img {
+      width: 450px;
+    }
+    .sectionFinaleText {
+      @include patternSectionText(450px, 90px, 420px, 110px);
+      h2 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 840px) {
+  .sectionPhone {
+    img {
+      width: 320px;
+    }
+    .sectionPhoneText {
+      h2 {
+        font-size: 30px;
+        width: 400px;
+      }
+      p {
+        width: 400px;
+      }
+    }
+  }
+
+  .sectionBusiness {
+    article {
+      width: 100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      h3 {
+        width: 50vw;
+        height: 30%;
+        font-size: 35px;
+      }
+    }
+  }
+
+  .sectionChange {
+    img {
+      width: 350px;
+    }
+
+    .sectionChangeText {
+      h2 {
+        font-size: 30px;
+        width: 330px;
+      }
+      p {
+        width: 320px;
+        font-size: 16px;
+      }
+    }
+  }
+
+  .sectionFinale {
+    @include patternSection();
+    img {
+      width: 350px;
+    }
+    .sectionFinaleText {
+      @include patternSectionText(450px, 90px, 420px, 110px);
+      h2 {
+        font-size: 30px;
+        width: 330px;
+      }
+      p {
+        width: 320px;
+        font-size: 16px;
+      }
+    }
+  }
+}

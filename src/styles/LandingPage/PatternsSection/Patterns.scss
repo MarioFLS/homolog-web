@@ -1,0 +1,200 @@
+@import '../../colors/colors.scss';
+
+@mixin patterLeft {
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+    .sectionContainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px 0px 0px 146px;
+      justify-content: space-between;
+      isolation: isolate;
+
+      width: 88vw;
+      height: 689px;
+      position: relative;
+
+      .sectionContainerText {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 333px;
+        height: 269px;
+        gap: 32px;
+
+        div {
+          h1 {
+            height: 32px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            color: #ba02c9;
+            margin-bottom: 4px;
+          }
+          .bordText {
+            display: block;
+            height: 4px;
+            background: #ba02c9;
+            border: 2px solid #ba02c9;
+            border-radius: 20px;
+          }
+        }
+
+        h2 {
+          width: 377px;
+          height: 92px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 115%;
+          color: #6a00a6;
+        }
+
+        p {
+          width: 347px;
+          height: 108px;
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: #45444c;
+        }
+      }
+      .sectionImg {
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        top: 0;
+        left: 0;
+        animation: floating 2s ease-in-out 0s infinite alternate;
+      }
+      @keyframes floating {
+        0% {
+          transform: translate(0, 0px);
+        }
+        50% {
+          transform: translate(0, 15px);
+        }
+        100% {
+          transform: translate(0, -0px);
+        }
+      }
+    }
+  }
+}
+
+@mixin patterRight {
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+    .sectionContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px;
+      isolation: isolate;
+      height: 614px;
+      position: relative;
+      width: 88vw;
+
+      .sectionContainerImg {
+        width: 100%;
+        img {
+          max-width: 100%;
+        }
+      }
+
+      .sectionContainerText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        width: 479px;
+        height: 269px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        z-index: 2;
+        cursor: default;
+
+        div {
+          h1 {
+            height: 32px;
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            color: #ba02c9;
+            margin-bottom: 4px;
+          }
+          .bordText {
+            display: block;
+            height: 4px;
+            background: #ba02c9;
+            border: 2px solid #ba02c9;
+            border-radius: 20px;
+          }
+        }
+
+        h2 {
+          width: 377px;
+          height: 92px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 40px;
+          line-height: 115%;
+          color: #6a00a6;
+        }
+
+        p {
+          width: 347px;
+          height: 108px;
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: #45444c;
+        }
+      }
+      .sectionImg {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+
+        width: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        animation: floating 2s ease-in-out 0s infinite alternate;
+      }
+      @keyframes floating {
+        0% {
+          transform: translate(0, 0px);
+        }
+        50% {
+          transform: translate(0, 15px);
+        }
+        100% {
+          transform: translate(0, -0px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,241 @@
+.section {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  isolation: isolate;
+}
+.section .containerMainText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48px;
+  width: 40%;
+}
+.section .containerMainText .containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0px;
+  gap: 32px;
+  width: 100%;
+}
+.section .containerMainText .containerText h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 115%;
+  color: #6a00a6;
+  width: 100%;
+}
+.section .containerMainText .containerText h1 .titleH1Span {
+  color: transparent;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.section .containerMainText .containerText p {
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #45444c;
+}
+.section .containerMainText .containerText p span {
+  font-weight: 700;
+  color: #6a00a6;
+}
+.section .containerMainText .containerButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 408px;
+  height: 56px;
+  /* .buttonRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+
+    width: 196px;
+    height: 56px;
+
+    background: $gradientMain;
+    border-radius: 50px;
+    color: #ffffff;
+    img {
+      width: 100%;
+    }
+  } */
+  /* .buttonAdvertiser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+
+    width: 196px;
+    height: 56px;
+
+    border: 2px solid #6a00a6;
+    border-radius: 50px;
+    color: #6a00a6;
+    a {
+      color: #6a00a6;
+    }
+  } */
+}
+.section .containerMainText .containerButton button {
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  cursor: pointer;
+}
+.section .containerMainText .containerButton .buttonPlayStore {
+  width: 190px;
+  height: 56px;
+  border-radius: 50px;
+}
+.section .containerMainText .containerButton .buttonPlayStore img {
+  width: 100%;
+}
+.section .containerMainText .containerButton .buttonApple {
+  width: 190px;
+  height: 56px;
+  border-radius: 50px;
+}
+.section .containerMainText .containerButton .buttonApple img {
+  width: 100%;
+}
+.section .sectionImg {
+  width: 50%;
+  margin-right: -60px;
+}
+.section .sectionImg img {
+  width: 100%;
+  height: 100%;
+}
+.section .containerButtonMobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+  }
+  .section .containerMainText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+  }
+  .section .containerMainText .containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+  }
+  .section .containerMainText .containerText h1 {
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+  }
+  .section .containerMainText .containerText p {
+    width: 100%;
+    text-align: center;
+  }
+  .section .containerMainText .containerButton {
+    display: none;
+  }
+  .section .sectionImg {
+    width: 100%;
+  }
+  .section .sectionImg img {
+    width: 100%;
+    height: 100%;
+  }
+  .section .containerButtonMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 16px;
+    width: 100%;
+    height: 128px;
+  }
+  .section .containerButtonMobile button {
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    cursor: pointer;
+  }
+  .section .containerButtonMobile .buttonRegister {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+    border-radius: 50px;
+    color: #ffffff;
+  }
+  .section .containerButtonMobile .buttonAdvertiser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+    width: 100%;
+    height: 56px;
+    border: 2px solid #6a00a6;
+    border-radius: 50px;
+    color: #6a00a6;
+  }
+  .section .containerButtonMobile .buttonPlayStore {
+    width: 190px;
+    height: 56px;
+    border-radius: 50px;
+  }
+  .section .containerButtonMobile .buttonPlayStore img {
+    width: 100%;
+  }
+  .section .containerButtonMobile .buttonApple {
+    width: 190px;
+    height: 56px;
+    border-radius: 50px;
+  }
+  .section .containerButtonMobile .buttonApple img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=SectionOne.module.css.map */

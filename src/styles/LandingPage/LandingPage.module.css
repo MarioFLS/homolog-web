@@ -1,0 +1,23 @@
+.containerMainLP {
+  padding-top: 180px;
+  background: linear-gradient(180deg, #ffffff 0%, #feeffb 100%);
+}
+.containerMainLP .main {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #ffffff 0%, #feeffb 100%);
+}
+.containerMainLP .main .container {
+  margin: 0 8%;
+}
+
+@media (max-width: 900px) {
+  .containerMainLP {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 500px) {
+  .containerMainLP .main .container {
+    margin: 0 4%;
+  }
+}/*# sourceMappingURL=LandingPage.module.css.map */

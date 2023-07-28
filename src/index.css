@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #F8F8F8;
+  min-height: 100vh;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #BA02C9 !important;
+}
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input:focus {
+  outline: none !important;
+}
+
+.react-tel-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.react-tel-input .form-control {
+  padding-left: 30px !important;
+}

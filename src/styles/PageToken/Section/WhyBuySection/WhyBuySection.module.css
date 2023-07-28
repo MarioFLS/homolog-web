@@ -1,0 +1,220 @@
+.sectionBuy {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.sectionBuy .sectionHeader h2 {
+  color: #6a00a6;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 115%;
+}
+.sectionBuy .sectionHeader p {
+  margin-left: 4px;
+  font-size: 14px;
+}
+.sectionBuy .mainContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-radius: 16px;
+}
+.sectionBuy .mainContainer .containerInternal {
+  border: 1px solid #df8be6;
+  width: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextOne {
+  border-bottom: 1px solid #df8be6;
+  display: flex;
+  width: 100%;
+  padding: 32px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px 16px 0px 0px;
+  background: #fff;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextOne .containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextOne .containerText h5 {
+  color: #6a00a6;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 135%;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextOne .containerText p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+.sectionBuy .mainContainer .containerInternal .articleText {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  padding: 32px;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #df8be6;
+}
+.sectionBuy .mainContainer .containerInternal .articleText .containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.sectionBuy .mainContainer .containerInternal .articleText .containerText h5 {
+  color: #6a00a6;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 135%;
+}
+.sectionBuy .mainContainer .containerInternal .articleText .containerText p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextFour {
+  background: #fff;
+  display: flex;
+  width: 100%;
+  padding: 32px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px 16px 0px 0px;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextFour .containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextFour .containerText h5 {
+  color: #6a00a6;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 135%;
+}
+.sectionBuy .mainContainer .containerInternal .articleTextFour .containerText p {
+  color: #000;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  line-height: 150%;
+}
+.sectionBuy .mainContainer .containerInternal #articleSelected {
+  border: 2px solid #ba02c9;
+  background: #fdecff;
+}
+.sectionBuy .mainContainer .containerInternal #articleFourSelected {
+  border-radius: 0px 0px 16px 16px;
+  border: 2px solid #ba02c9;
+  background: #fdecff;
+}
+
+@media (max-width: 1400px) {
+  .sectionBuy {
+    gap: 30px;
+  }
+  .sectionBuy .mainContainer .containerInternal {
+    width: 45%;
+  }
+  .sectionBuy .mainContainer .containerImg {
+    width: 50%;
+  }
+  .sectionBuy .mainContainer .containerImg img {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .sectionBuy {
+    flex-direction: column;
+  }
+  .sectionBuy .mainContainer {
+    flex-direction: column;
+  }
+  .sectionBuy .mainContainer .containerInternal {
+    width: 100%;
+  }
+  .sectionBuy .mainContainer .containerImg {
+    width: 70%;
+  }
+  .sectionBuy .mainContainer .containerImg img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .sectionBuy .sectionHeader {
+    align-items: center;
+  }
+  .sectionBuy .sectionHeader h2 {
+    font-size: 24px;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextOne {
+    padding: 18px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextOne .containerIcon img {
+    width: 27px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextOne .containerText h5 {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextOne .containerText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleText {
+    padding: 18px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleText .containerIcon img {
+    width: 27px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleText .containerText h5 {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleText .containerText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextFour {
+    padding: 18px;
+    gap: 9px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextFour .containerIcon img {
+    width: 27px;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextFour .containerText h5 {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerInternal .articleTextFour .containerText p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  .sectionBuy .mainContainer .containerImg {
+    width: 100%;
+  }
+}/*# sourceMappingURL=WhyBuySection.module.css.map */

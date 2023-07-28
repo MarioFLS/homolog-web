@@ -1,0 +1,50 @@
+.containerMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  cursor: default;
+}
+.containerMain .containerText {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.containerMain .containerText p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.containerMain .containerInput {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  margin-right: 20px;
+  gap: 16px;
+}
+.containerMain .containerInput input {
+  width: 84px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: #636269;
+  outline: none;
+  border: none;
+  text-overflow: clip;
+}
+.containerMain .containerInput button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}/*# sourceMappingURL=InputExtract.module.css.map */

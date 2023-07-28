@@ -1,0 +1,178 @@
+.sectionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49px;
+  gap: 32px;
+  height: 852px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+}
+.sectionMain .containerInfoAd {
+  display: flex;
+  width: 100%;
+}
+.sectionMain .containerInfoAd div {
+  display: flex;
+  padding: 7px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 25px;
+}
+.sectionMain .containerInfoAd div span {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 18px */
+}
+.sectionMain .containerInfoAd .adApproved {
+  border: 1px solid #a6f4dc;
+  background: #d6faef;
+}
+.sectionMain .containerInfoAd .adApproved span {
+  color: #5b8679;
+}
+.sectionMain .containerInfoAd .adUnderReview {
+  border: 1px solid #ffcfaa;
+  background-color: #fff5e7;
+}
+.sectionMain .containerInfoAd .adUnderReview span {
+  color: #b58339;
+}
+.sectionMain .containerInfoAd .adDisapproved {
+  border: 1px solid #ff758e;
+  background-color: #ffd4dc;
+}
+.sectionMain .containerInfoAd .adDisapproved span {
+  color: #b55365;
+}
+.sectionMain .contianerImage {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  width: 288px;
+  height: 388px;
+}
+.sectionMain .contianerImage video {
+  width: 100%;
+  height: 100%;
+}
+.sectionMain .containerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.sectionMain .containerMain h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #232231;
+}
+.sectionMain .containerMain .containerDateText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.sectionMain .containerMain .containerDateText .dateText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+}
+.sectionMain .containerMain .containerDateText .dateText div {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: #fadbfd;
+  border-radius: 6px;
+}
+.sectionMain .containerMain .containerDateText .dateText h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.sectionMain .containerMain .containerDateText p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.sectionMain .containerMain .containerGoalText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 16px;
+  width: 100%;
+  height: 171px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.sectionMain .containerMain .containerGoalText .goalText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 100%;
+}
+.sectionMain .containerMain .containerGoalText .goalText div {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: #fadbfd;
+  border-radius: 6px;
+}
+.sectionMain .containerMain .containerGoalText .goalText h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.sectionMain .containerMain .containerGoalText .trafficGoalText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4px;
+  width: 250px;
+}
+.sectionMain .containerMain .containerGoalText .trafficGoalText h4 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+  width: 100%;
+}
+.sectionMain .containerMain .containerGoalText .trafficGoalText p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+  width: 100%;
+}/*# sourceMappingURL=SectionInfoAds.module.css.map */

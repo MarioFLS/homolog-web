@@ -1,0 +1,141 @@
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.readyplayerme {
+  width: 70vw;
+  height: 90vh;
+  border: none;
+  margin: 0px;
+}
+
+#readyplayerme_avatar_preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  outline: none;
+}
+
+#readyplayerme_avatar_preview img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+#readyplayerme-modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+
+.readyplayerme-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0px;
+  width: 548px;
+  height: 686px;
+  background: rgba(250, 219, 253, 0.5);
+  border: 2px solid #FADBFD;
+  border-radius: 64px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* .voce-no-metaverso {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 0px;
+  width: 372px;
+  height: 577px;
+} */
+
+/* .checkbox-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 366px;
+  height: 24px;
+
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  display: flex;
+  width: 330px;
+  height: 21px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  color: #4A4A4A;
+}
+
+.checkbox-container input[type="checkbox"] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-container label::before {
+  display: flex;
+  content: '';
+  width: 1em;
+  height: 1em;
+  border-radius: .15em;
+  margin-right: .5em;
+  margin-top: 2px;
+  border: .05em solid #BA02C9;
+}
+
+
+.checkbox-container input[type="checkbox"]:checked+label::before {
+  content: '\002714';
+  background-color: #BA02C9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} */
+
+@media (min-width: 300px) and (max-width: 800px) {
+  #voce-no-metaverso {
+
+    width: 100%;
+  }
+
+  #readyplayerme_avatar_preview img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .readyplayerme {
+    display: block;
+
+    width: 100vw;
+    height: 100vh;
+  }
+}

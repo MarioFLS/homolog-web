@@ -1,0 +1,12 @@
+@import '../colors/colors.scss';
+.containerMainAdm {
+  margin: 0 8%;
+
+  .mainAdm {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 43px;
+  }
+}

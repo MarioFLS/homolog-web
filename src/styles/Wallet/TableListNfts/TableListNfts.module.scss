@@ -1,0 +1,112 @@
+.containerNft {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 8px;
+
+  width: 792px;
+  height: 104px;
+
+  background: #ffffff;
+
+  border: 1px solid #e8e8e9;
+  border-radius: 8px;
+
+  .containerNftText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 245px;
+    height: 72px;
+
+    .containerNftTextImage {
+      width: 100px;
+      height: 100%;
+
+      img {
+        width: 100px;
+        height: 100%;
+      }
+    }
+    .containerNftTextInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 4px;
+
+      width: 157px;
+      height: 72px;
+      p {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        line-height: 150%;
+        color: #636269;
+      }
+      .nftNumber {
+        color: #df8be6;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .nftName {
+        color: #45444c;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .nftDescription {
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .containerNftInfos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    justify-content: space-between;
+
+    width: 270px;
+    height: 72px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+      width: 80px;
+
+      p {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #636269;
+        width: 80px;
+        height: 40px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .textTitle {
+        height: 24px;
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: #45444c;
+      }
+    }
+  }
+}

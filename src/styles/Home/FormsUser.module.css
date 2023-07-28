@@ -1,0 +1,212 @@
+* {
+  outline: none;
+  border: none;
+}
+
+.sectionContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.sectionContainer .sectionForms {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px;
+  gap: 32px;
+  position: relative;
+  width: 520px;
+  z-index: 1;
+  background: linear-gradient(146.52deg, rgb(255, 255, 255) 2.11%, rgb(255, 255, 255) 100%), #ffffff;
+  border: 1px solid #fadbfd;
+  border-radius: 24px;
+}
+.sectionContainer .sectionForms header h2 {
+  background: linear-gradient(90deg, #ba02c9 1.23%, #ff8a91 71.73%, #ffacac 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  width: 262px;
+  height: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 115%;
+  margin: 0;
+}
+.sectionContainer .sectionForms header p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.sectionContainer .sectionForms .sectionFormsInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 424px;
+}
+.sectionContainer .sectionForms .sectionFormsInput .inputPassword {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  padding: 0;
+  width: 424px;
+  height: 48px;
+  border-radius: 8px;
+  position: relative;
+}
+.sectionContainer .sectionForms .sectionFormsInput .inputPassword input {
+  background-color: transparent;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #949398;
+}
+.sectionContainer .sectionForms .sectionFormsInput .inputPassword button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.sectionContainer .sectionForms .sectionFormsInput input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 424px;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #b7b6ba;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #09090d;
+}
+.sectionContainer .sectionForms .sectionFormsInput input:focus {
+  border: 1px solid #ba02ca;
+}
+.sectionContainer .sectionForms .sectionFormsInput span {
+  color: red;
+}
+.sectionContainer .sectionForms .sectionFormsInput .paragraphCompany {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+  color: #f34ddd;
+}
+.sectionContainer .sectionForms .sectionFormsInput .containerNickname {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  width: 424px;
+  border: 1px solid #b7b6ba;
+  border-radius: 8px;
+  height: 48px;
+}
+.sectionContainer .sectionForms .sectionFormsInput .containerNickname input {
+  border: none;
+  height: 100%;
+  padding: 0;
+}
+.sectionContainer .sectionForms .sectionFormsInput .containerNickname span {
+  color: #676768;
+  margin-right: 5px;
+}
+.sectionContainer .sectionFormsButton button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 424px;
+  height: 56px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.sectionContainer .sectionFormsButton button:disabled {
+  opacity: 0.5;
+}
+.sectionContainer .sectionFormsCheck {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+}
+.sectionContainer .sectionFormsCheck div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 424px;
+  height: 40px;
+}
+.sectionContainer .sectionFormsCheck div label {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #45444c;
+}
+.sectionContainer .sectionFormsCheck div label a {
+  font-weight: bold;
+  color: #45444c;
+  border-bottom: 1px solid #45444c;
+}
+.sectionContainer .sectionFormsCheck div .labelPrivacity {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 384px;
+  height: 86px;
+}
+.sectionContainer .sectionFormsCheck div .labelPrivacity .spanText {
+  font-size: 12px;
+}
+.sectionContainer .containerImg {
+  position: absolute;
+  display: flex;
+  width: 732px;
+  height: 732px;
+}
+.sectionContainer .containerImg img {
+  opacity: 0.8;
+}/*# sourceMappingURL=FormsUser.module.css.map */

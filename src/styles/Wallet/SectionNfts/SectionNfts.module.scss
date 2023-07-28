@@ -1,0 +1,98 @@
+.sectionNft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 434px;
+
+  .containerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 558px;
+
+    width: 100%;
+    height: 32px;
+
+    h2 {
+      width: 147px;
+      height: 32px;
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 135%;
+      color: #212855;
+    }
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 12px;
+
+      width: 72px;
+      height: 32px;
+
+      button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+        #selectedTypeList {
+          filter: invert(12%) sepia(96%) saturate(6576%) hue-rotate(294deg)
+            brightness(93%) contrast(105%);
+        }
+      }
+    }
+  }
+  .articleListNfts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    height: 464px;
+    gap: 20px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      border-radius: 10px;
+      height: 10px;
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #df8be6;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+  }
+
+  .articleGridNfts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+      border-radius: 10px;
+      height: 10px;
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #df8be6;
+      border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+      border-radius: 10px;
+    }
+  }
+}

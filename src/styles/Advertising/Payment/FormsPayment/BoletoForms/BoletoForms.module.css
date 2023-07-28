@@ -1,0 +1,87 @@
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  gap: 40px;
+  height: 100%;
+}
+.containerForm .containerMainForm {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  width: 100%;
+}
+.containerForm .containerMainForm .containerInputs {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.containerForm .containerMainForm .containerInputs label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.containerForm .containerMainForm .containerInputs label p {
+  color: #45444c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.containerForm .containerMainForm .containerInputs label input {
+  display: flex;
+  width: 100%;
+  padding: 12px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #b7b6ba;
+  color: #636269;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.containerForm .containerMainForm .containerInputs label input:-moz-read-only {
+  background: #f3f3f3;
+}
+.containerForm .containerMainForm .containerInputs label input:read-only {
+  background: #f3f3f3;
+}
+.containerForm .btnNext {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  width: 315px;
+  height: 53px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.containerForm .btnNext:disabled {
+  opacity: 0.5;
+}/*# sourceMappingURL=BoletoForms.module.css.map */

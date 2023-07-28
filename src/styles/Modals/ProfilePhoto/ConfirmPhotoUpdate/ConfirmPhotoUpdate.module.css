@@ -1,0 +1,124 @@
+.containerMain {
+  display: flex;
+  width: 424px;
+  height: 524px;
+  padding: 40px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  border: 1px solid #e8e8e9;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #e8e8e9;
+  background: #fff;
+}
+.containerMain header h2 {
+  color: #09090d;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%;
+}
+.containerMain .containerPreviewImg {
+  width: 225.375px;
+  height: 225px;
+  flex-shrink: 0;
+}
+.containerMain .containerPreviewImg .containerImg {
+  position: relative;
+  background-color: #09090d;
+  width: 100%;
+  border-radius: 16px;
+  background: rgb(116, 116, 116) 60%/cover no-repeat;
+}
+.containerMain .containerPreviewImg .containerImg .imgMain {
+  width: 100%;
+  opacity: 0.8;
+}
+.containerMain .containerPreviewImg .containerAvatar {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+.containerMain .containerButton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.containerMain .containerButton button {
+  background-color: transparent;
+  cursor: pointer;
+}
+.containerMain .containerButton .galeryButton {
+  position: relative;
+  display: flex;
+  width: 149px;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 2px solid #ba02c9;
+  color: #ba02c9;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.containerMain .containerButton .galeryButton .inputUpload {
+  border-radius: 50px;
+  background-color: #6d6382;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  font-size: 0;
+  line-height: 0;
+}
+.containerMain .containerButton .galeryButton .inputUpload:disabled {
+  background: rgba(243, 243, 243, 0.5);
+  border: 1px solid #e8e8e9;
+  opacity: 1;
+  filter: alpha(opacity=1);
+  cursor: not-allowed;
+}
+.containerMain .containerButton .galeryButton .inputUpload::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.containerMain .containerButton .confirmButton {
+  display: flex;
+  width: 162px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+}/*# sourceMappingURL=ConfirmPhotoUpdate.module.css.map */

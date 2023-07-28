@@ -1,0 +1,176 @@
+.sectionChart {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 60%;
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    color: #232231;
+  }
+
+  .sectionChartLine {
+    display: flex;
+
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 100%;
+    justify-content: space-between;
+    .chartLineContainerMain {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 35px 45px 30px 32px;
+      background: #ffffff;
+      border: 1px solid rgba(159, 154, 168, 0.25);
+      border-radius: 24px;
+      width: 100%;
+      height: 152px;
+
+      .chartLineContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        align-items: center;
+        padding: 0px;
+        //gap: 130px;
+        width: 100%;
+        height: 87.86px;
+
+        .chartLine {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          padding: 0px;
+          gap: 18px;
+
+          width: 127px;
+          height: auto;
+
+          .chartLineText {
+            font-family: 'DM Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14.3556px;
+            line-height: 19px;
+            /* identical to box height */
+
+            color: #3b96fc;
+          }
+        }
+        .chartLineText {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 24px;
+
+          h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            color: #000631;
+          }
+          p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            /* or 32px */
+            color: #3b96fc;
+          }
+          .textEmpyLine {
+            color: var(--neutral-neutral-1000, #09090d);
+            /* Body/Body - regular 16 */
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Inter, sans-serif;
+            line-height: 150%;
+          }
+
+          .chartLineTextClick {
+            margin-left: 20px;
+          }
+        }
+        .emptychartLine {
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .sectionChartPie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 48px;
+    gap: 16px;
+    width: 100%;
+    height: 324.86px;
+    background: #ffffff;
+    border: 1px solid rgba(159, 154, 168, 0.25);
+    border-radius: 24px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 40px;
+      margin-bottom: -20px;
+      width: 600px;
+      height: 233.86px;
+
+      .chartText {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+
+        h3 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          /* identical to box height, or 27px */
+
+          /* neutras/Dark */
+
+          color: #000631;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .sectionChart {
+    .sectionChartLine {
+      flex-direction: column;
+      .chartLineContainerMain {
+        .chartLineContainer {
+          justify-content: space-around;
+        }
+      }
+    }
+    .sectionChartPie {
+      div {
+        .chartText {
+          width: max-content;
+        }
+      }
+    }
+  }
+}

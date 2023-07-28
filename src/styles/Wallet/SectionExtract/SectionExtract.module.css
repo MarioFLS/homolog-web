@@ -1,0 +1,32 @@
+.sectionExtract {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 448px;
+  gap: 24px;
+}
+.sectionExtract h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #212855;
+}
+.sectionExtract .articleExtract {
+  width: 100%;
+  height: 392px;
+  overflow: auto;
+}
+.sectionExtract .articleExtract::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 8px;
+}
+.sectionExtract .articleExtract::-webkit-scrollbar-thumb {
+  background: #df8be6;
+  border-radius: 10px;
+}
+.sectionExtract .articleExtract::-webkit-scrollbar-track {
+  border-radius: 10px;
+}/*# sourceMappingURL=SectionExtract.module.css.map */

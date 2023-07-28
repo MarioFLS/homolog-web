@@ -1,0 +1,179 @@
+@import "../../colors//colors.scss";
+.sectionAds {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 10px;
+
+  width: 1224px;
+  height: 644px;
+
+  background: #ffffff;
+  border-radius: 24px;
+
+  .containerAdsMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 153px;
+
+    width: 100%;
+    height: 564px;
+  }
+
+  .containerAds {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 100%;
+    height: 358px;
+
+    .sectionAdsAdsText {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 135%;
+      color: #45444c;
+    }
+
+    .sectionAdsGoalContainer {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+
+      .cardAdsGoal {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        gap: 10px;
+        width: 354px;
+        height: 152px;
+        background: rgba(243, 243, 243, 0.3);
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        img {
+          padding: 8px;
+          background: #fadbfd;
+          border-radius: 6px;
+        }
+
+        .cardAdsGoalText {
+          text-align: start;
+          div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+            gap: 2px;
+            p {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              padding: 4px 12px;
+
+              width: 79px;
+              height: 23px;
+
+              background: #e8e8e9;
+              border-radius: 25px;
+              font-family: "Inter", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 150%;
+              display: flex;
+              align-items: center;
+              color: #949398;
+            }
+            h3 {
+              font-family: "Montserrat", sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 150%;
+
+              color: #636269;
+            }
+          }
+
+          p {
+            font-family: "Inter", sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #636269;
+          }
+        }
+      }
+
+      #selectedCard {
+        border: 2px solid #ba02ca;
+        background: rgba(250, 219, 253, 0.5);
+        border-radius: 16px;
+      }
+    }
+  }
+  .sectionAdsAdsButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    button {
+      width: 315px;
+      height: 53px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      gap: 8px;
+      background: $gradientMain;
+      border-radius: 100px;
+      border: none;
+      font-family: "Inter", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .buttonReturn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px 8px 0px 0px;
+      gap: 8px;
+      width: 157px;
+      height: 44px;
+      background: transparent;
+      span {
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ba02c9;
+      }
+    }
+  }
+}

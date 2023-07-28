@@ -1,0 +1,48 @@
+@import '../../../mixin//mixin.scss';
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4%;
+  gap: 10px;
+
+  justify-content: space-around;
+  height: 100%;
+  margin-top: 20px;
+
+  .containerInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #45444c;
+      gap: 10px;
+
+      input {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 12px 16px;
+        gap: 10px;
+        border: 1px solid #b7b6ba;
+        border-radius: 8px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #949398;
+      }
+    }
+  }
+  @include btnNext;
+}

@@ -1,0 +1,86 @@
+.sectionNft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 434px;
+}
+.sectionNft .containerText {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 558px;
+  width: 100%;
+  height: 32px;
+}
+.sectionNft .containerText h2 {
+  width: 147px;
+  height: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #212855;
+}
+.sectionNft .containerText div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+  width: 72px;
+  height: 32px;
+}
+.sectionNft .containerText div button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.sectionNft .containerText div button #selectedTypeList {
+  filter: invert(12%) sepia(96%) saturate(6576%) hue-rotate(294deg) brightness(93%) contrast(105%);
+}
+.sectionNft .articleListNfts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  height: 464px;
+  gap: 20px;
+  overflow-y: auto;
+}
+.sectionNft .articleListNfts::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 8px;
+}
+.sectionNft .articleListNfts::-webkit-scrollbar-thumb {
+  background: #df8be6;
+  border-radius: 10px;
+}
+.sectionNft .articleListNfts::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.sectionNft .articleGridNfts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  overflow-y: auto;
+}
+.sectionNft .articleGridNfts::-webkit-scrollbar {
+  border-radius: 10px;
+  height: 10px;
+  width: 8px;
+}
+.sectionNft .articleGridNfts::-webkit-scrollbar-thumb {
+  background: #df8be6;
+  border-radius: 10px;
+}
+.sectionNft .articleGridNfts::-webkit-scrollbar-track {
+  border-radius: 10px;
+}/*# sourceMappingURL=SectionNfts.module.css.map */

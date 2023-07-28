@@ -1,0 +1,96 @@
+@import '../../colors//colors.scss';
+
+.containerAdsMain {
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .containerAdsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    .containerAdsText {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 40px;
+      width: 530px;
+      height: 156px;
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 130%;
+        color: #66016f;
+      }
+
+      button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 8px;
+        width: 315px;
+        height: 53px;
+        background: $gradientMain;
+        border-radius: 100px;
+        border: none;
+
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: center;
+        color: #ffffff;
+
+        cursor: pointer;
+      }
+    }
+
+    .containerAdsImg {
+      margin-top: 60px;
+      img {
+        width: 600px;
+        height: 580px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .containerAdsMain {
+    .containerAdsContainer {
+      align-items: center;
+      gap: 400px;
+    }
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1300px) {
+  .containerAdsMain {
+    .containerAdsContainer {
+      flex-direction: column;
+      .containerAdsText {
+        align-items: center;
+
+        h1 {
+          text-align: center;
+        }
+      }
+      .containerAdsImg {
+        margin-top: 0px;
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+}

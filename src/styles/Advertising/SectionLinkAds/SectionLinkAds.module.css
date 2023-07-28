@@ -1,0 +1,150 @@
+.sectionAds {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 85vw;
+  height: 644px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  padding: 40px;
+}
+.sectionAds .sectionCreateAds {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.sectionAds .sectionCreateAds .containerAds {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  gap: 30px;
+  width: 417px;
+  height: 312px;
+}
+.sectionAds .sectionCreateAds .containerAds .containerAdsInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  width: 417px;
+  height: 112px;
+}
+.sectionAds .sectionCreateAds .containerAds .containerAdsInput h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  color: #45444c;
+}
+.sectionAds .sectionCreateAds .containerAds .containerAdsInput input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 332px;
+  height: 48px;
+  border: 1px solid #b7b6ba;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #636269;
+  outline: none;
+}
+.sectionAds .sectionCreateAds .containerAds .containerAdsInput select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  width: 332px;
+  height: 48px;
+  border: 1px solid #b7b6ba;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #636269;
+}
+.sectionAds .sectionAdsAdsButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sectionAds .sectionAdsAdsButton button {
+  width: 315px;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.sectionAds .sectionAdsAdsButton button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.sectionAds .sectionAdsAdsButton .buttonReturn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px 0px 0px;
+  gap: 8px;
+  width: 157px;
+  height: 44px;
+  background: transparent;
+}
+.sectionAds .sectionAdsAdsButton .buttonReturn span {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ba02c9;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .sectionAds {
+    width: 100vw;
+  }
+  .sectionAds .sectionAdsGoalContainer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 760px) and (max-width: 799px) {
+  .sectionAds {
+    width: 100vw;
+  }
+  .sectionAds .sectionAdsGoalContainer {
+    margin-left: 10px;
+  }
+}/*# sourceMappingURL=SectionLinkAds.module.css.map */

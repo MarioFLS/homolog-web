@@ -1,0 +1,261 @@
+@import '../colors//colors.scss';
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    width: 581px;
+    height: 618px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(
+        146.52deg,
+        rgba(253, 208, 223, 0.075) 2.11%,
+        rgba(223, 139, 230, 0.05) 100%
+      ),
+      #ffffff;
+    border: 1px solid #fadbfd;
+    border-radius: 24px;
+  }
+  .containerTitle {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 24px;
+    gap: 16px;
+
+    width: 437px;
+    height: 302px;
+
+    /* Primary/purple-lighter */
+
+    border-bottom: 1px solid #fadbfd;
+
+    h1 {
+      background: $gradientMain;
+      @include gradientTextPattener;
+
+      width: 305px;
+      height: 170px;
+
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 148px;
+      line-height: 115%;
+      /* or 170px */
+
+      text-align: center;
+    }
+    h2 {
+      width: 437px;
+      height: 92px;
+
+      /* Heading Web/Heading-40 */
+
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 115%;
+      /* or 46px */
+
+      text-align: center;
+
+      color: #000000;
+    }
+  }
+  .containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    width: 605px;
+    height: 240px;
+
+    p {
+      width: 453px;
+      height: 72px;
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      /* or 24px */
+
+      text-align: center;
+
+      /* Neutral/neutral-500 */
+
+      color: #636269;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+
+      .buttonReturn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+
+        width: 424px;
+        height: 56px;
+
+        background: $gradientMain;
+        border-radius: 100px;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+
+        border: none;
+        cursor: pointer;
+      }
+
+      .buttonsupport {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        gap: 8px;
+
+        width: 424px;
+        height: 56px;
+
+        background: #f3f3f3;
+        border-radius: 100px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+
+        text-align: center;
+
+        color: #ba02c9;
+        border: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    .containerMain {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 90vw;
+      height: auto + 30px;
+      .containerTitle {
+        width: auto;
+        border-bottom: none;
+
+        h1,
+        h2 {
+          width: auto;
+          height: auto;
+        }
+        h1 {
+          font-size: 120px;
+        }
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+    .containerText {
+      width: 100vw;
+      height: auto;
+
+      p {
+        width: 85%;
+        height: auto;
+        font-size: 12px;
+      }
+
+      div {
+        width: 100%;
+        align-items: center;
+        .buttonReturn {
+          width: 80%;
+        }
+        .buttonsupport {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .main {
+    margin-bottom: 20px;
+    width: auto;
+    height: auto;
+    .containerTitle {
+      width: auto;
+      border-bottom: none;
+      height: auto;
+      h1,
+      h2 {
+        width: auto;
+        height: auto;
+      }
+      h1 {
+        font-size: 80px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+    }
+  }
+  .containerText {
+    width: 80vw;
+    height: auto;
+
+    p {
+      width: 85%;
+      height: auto;
+      font-size: 12px;
+    }
+
+    div {
+      width: 100%;
+      align-items: center;
+      .buttonReturn {
+        width: 80%;
+      }
+      .buttonsupport {
+        width: 80%;
+      }
+    }
+  }
+}

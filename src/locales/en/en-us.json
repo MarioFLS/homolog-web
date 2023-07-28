@@ -1,0 +1,365 @@
+{
+  "translation": {
+    "main-title": "We are Soul, your new",
+    "main-title-span": "web3 social network",
+    "main-description-span": "Here, you are monetized for creating content, watching ads, and much more!",
+    "main-description": "Come join us to enjoy this new era of the internet with the best of what already exists in social networks and new exclusive features.",
+    "main-button-signUp": "Sign up now",
+    "main-button-advertiser": "Be an advertiser",
+
+    "partners": "Get to know our main partners.",
+
+    "marketplace-h2": "Buy and Sell digital art",
+    "marketplace-p": "At SoulPrime, your digital art is worth money! Use your creativity to create NFTs and share your collections with other artists on the Marketplace.",
+
+    "moments-h2": "Create content and watch ads.",
+    "moments-p": "Speak directly to your audience by creating ads for Moments Ads or earn money as a user by watching ads on the app.",
+
+    "whyus-title": "Whithout account blocked here",
+    "whyus-description": "Theres is no suspending account in Soulprime In Soulprime your identification is a NFT we created the \"Soulbound Token - SBTs\" a decentralized id. Come to a stable Socialfi based into descentralized data.",
+
+    "section-media": "SoulPrime in the media",
+
+    "alt-cadeado": "A padlock in the middle surrounded by the words 'More security', 'Freedom', 'Confidentiality' and 'You in control'",
+    "Create your own avatar": "Create your avatar",
+    "avatar-button": "Create avatar",
+    "subscribe-waitlist": "Sign up for the waitlist",
+    "name-placeholder": "Full name",
+    "mail-placeholder": "Email",
+    "wpp-placeholder": "Whatsapp",
+    "button-access-model": "Get my access",
+    "checkbox-label": "I agree to receive communications.",
+    "footer-text": "©2023 SoulPrime",
+    "privacy policy": "Privacy Policy",
+    "fields emptys alert": "Fill in the fields.",
+    "all fields alert": "All fields are required!",
+    "checkit text alert": "Please agree to receive communications!",
+    "congrats": "Congratulations!",
+    "success text alert": "You are now on our waiting list.",
+
+    "digital-wallet": "Let your money grow in Soul.",
+    "connect-digital-wallet": "Our platform has a Staking functionality. This means that any money you put in there will earn interest while you decide what to do with it!",
+
+    "metaverso-create": "Have you ever imagined yourself in the metaverse?",
+    "ready-player-me": "We are the first Brazilian company to partner with Ready player Me.",
+
+    "about-us": "About us",
+    "about-us-paragraph": "SoulPrime is a new web3 social network that rewards content creators and users on a platform that uses blockchain technology. This type of structure is based on transparency, immutability, and encryption of information.",
+    "about-us-continue": "Continue reading...",
+
+    "contact-us": "Contact info",
+    "contact-us-paragraph-one": "Do you have any questions? Send us a message via",
+    "contact-us-paragraph-two": "or through our main social networks.",
+
+    "terms-of-use": "Terms of Use",
+    "any-questions": "Please feel free to contact us for any related questions?",
+    "send-message": "Send us a message.",
+    "Back-to-the-top": "Back to the top",
+    "advertiser": "I'm an advertiser",
+
+    "page-Login-Header-Title": "Access Your Account",
+    "page-Login-Button-Text": "Enter",
+
+    "headerLP-home": "Home",
+    "headerLP-aboutUs": "About Us",
+    "headerLP-token": "Your Token",
+    "headerLP-partners": "Partners",
+    "headerLP-contacts": "Contacts",
+
+    "headerLP-Modal-Text": "Don't have an account yet?",
+    "headerLP-Modal-SignUp": "Sign Up",
+    "headerLP-Modal-placeholder-email": "Enter your email",
+    "headerLP-Modal-placeholder-password": "Enter your password",
+    "headerLP-Modal-button": "Continue",
+
+    "header-navbard-ads": "Advertising",
+    "headerMain-company": "Your organization",
+    "headerMain-popover-company": "Add Company",
+    "headerMain-popover-config-account": "My account",
+    "headerMain-popover-config-privacy": "Privacy",
+    "headerMain-popover-config-terms": "User Terms",
+    "headerMain-popover-config-security": "Security",
+    "headerMain-popover-config-language": "Languages",
+    "headerMain-popover-config-report": "Report a problem",
+    "headerMain-popover-config-logoff": "Logoff",
+
+    "chart-clicks": "Link clicks",
+    "chart-impressions": "impressions",
+    "chart-gender": "Genre Achieved",
+    "chart-gender-masculine": "Masculine",
+    "chart-gender-female": "Female",
+    "chart-gender-other": "Other",
+
+    "carouselAds-recent": "Most recent",
+    "carouselAds-view-all": "See all",
+
+    "section-title": "Advertise on the biggest social network",
+    "section-paragraph": "At SoulPrime you advertise to the public that is interested in your product in a personalized way.",
+    "section-button": "Advertise on SoulPrime",
+    "article-business": "we help you leverage your business",
+
+    "article-conversion-text-h1": "Conversion",
+    "article-conversion-text-h2": "Speak directly to your target audience",
+    "article-conversion-text": "The content we show users is selected according to their interests, further increasing the chances of your ad converting.",
+
+    "article-performance-text-h1": "Performance",
+    "article-performance-text-h2": "Let the money go towards new ads",
+    "article-performance-text": "Our platform has the Staking feature, which means that all the money that is placed there will pay off! While you decide what to do with it.",
+
+    "article-adverts-text-h1": "Adverts",
+    "article-adverts-text-h2": "Don't leave it for later, announce it right now",
+    "article-adverts-text": "Ensure that your ads are viewed , pay for CPV ( cost per view ) and optimize your campaign budget",
+    "article-adverts-button": "Register now",
+
+    "yourAds-title": "Adverts",
+    "yourAds-button": "Create new ad",
+    "yourAds-header-nav-title-active": "Active",
+    "yourAds-header-nav-title-finished": "Finished",
+    "yourAds-header-nav-title-sketch": "Drafts",
+    "yourAds-header-input-placeholder": "Search ad",
+
+    "NewAds-header-h1": "Create your ad",
+
+    "sectionAds-header-text": "What is the purpose of the ad?",
+    "sectionAds-ads-goal-traffic-h3": "Traffic",
+    "sectionAds-ads-goal-traffic-p": "Bring more people to a certain place on your website.",
+    "sectionAds-ads-goal-community-h3": "Interaction",
+    "sectionAds-ads-goal-community-p": "Convert specific leads, unite people with the same interests on your page.",
+    "sectionAds-ads-goal-lead-h3": "Lead",
+    "sectionAds-ads-goal-lead-p": "Increase the database by generating new leads.",
+    "sectionAds-ads-goal-views-h3": "Visualization",
+    "sectionAds-ads-goal-views-p": "Convert the most views to your ad.",
+    "sectionAds-ads-button-return": "To go back",
+    "sectionAds-ads-button-continue": "Continue",
+    "sectionAds-ads-forms-title": "Name your campaign",
+    "sectionAds-ads-forms-placeholder": "Enter the name for your campaign",
+    "sectionAds-ads-forms-title-h3": "Select ad category",
+    "sectionAds-ads-container-title-h3": "Target audience",
+    "sectionAds-ads-container-select-placeholder": "Choose the category",
+    "sectionAds-ads-container-placeholder": "Enter a link to your ad",
+
+    "selectPlan-title-h2": "Select a range plan",
+    "selectPlan-title-h3": "Reach",
+    "selectPlan-title-h4": "Value $ View",
+    "selectPlan-title-date-h2": "Choose ad category",
+    "selectPlan-label-date": "Select Dates",
+    "selectPlan-label-notDate": "No end date",
+
+    "firts-ads-text": "At Soul, your client will never forget about you! Create your first advertisement.",
+    "firts-ads-button": "Start",
+
+    "paymentAds-header-text": "Upload your ad",
+    "paymentAds-title-one": "Import video",
+    "paymentAds-text-paragraph": "Drag and drop the file from your computer here or click the 'Select File' button.",
+    "paymentAds-paragraph-one": "Maximum 1 video",
+    "paymentAds-title-two": "Import images",
+    "paymentAds-paragraph-two": "Images will be converted to video",
+    "paymentAds-paragraph-three-b": "Important:",
+    "paymentAds-text-format": "Recommended formats are .mp4, mov, .mpeg with a maximum size of 500MB. Being only one file per ad and the image will be converted into video.",
+    "paymentAds-button-text": "Select file",
+    "paymentAds-container-loaded": "File added successfully!",
+
+    "paymentAds-modal-title-ads": "Finally, give your ad a title",
+    "paymentAds-modal-paragraph-ads": "This title is just a form of identification, only you can view it.",
+    "paymentAds-modal-button-cancel-ads": "Cancel",
+    "paymentAds-modal-button-ads": "Publish Ad",
+    "paymentAds-modal-step": "Step",
+    "paymentAds-modal-of": "of",
+
+    "paymentAds-forms-title": "Payment",
+
+    "baseForms-title": "Select a payment method",
+    "baseForms-button-card": "Choose value",
+    "baseForms-paragraph-value": "Choose amount (minimum amount $1 USD)",
+    "baseForms-label-value": "Choose value",
+    "baseForms-label-label-conversion": "After purchase you will receive",
+    "baseForms-paragraph-question": "Learn more about Token View",
+    "baseForms-views-paragraph": "People who see your ad",
+
+    "userForms-label-name": "Type your name",
+    "userForms-label-email": "Type your e-mail",
+    "userForms-label-cpf": "Enter your CPF",
+
+    "pixForms-text-paragraph-one": "Scan the QR Code",
+    "pixForms-text-paragraph-two": "or copy the code below",
+
+    "creditCardForms-text-title-one": "Add a card",
+    "creditCardForms-label-card": "Card number",
+    "creditCardForms-label-date": "Due date",
+    "creditCardForms-label-password": "Password",
+
+    "finishedForms-text-title-one": "Payment confirmed",
+    "finishedForms-text-title-two": "Continue to finish creating your ad",
+
+    "button-return": "Previous step",
+    "button-continue": "Continue",
+
+    "published-ads-title": "Payment has been approved! Now it's just a matter of waiting!",
+    "published-ads-paragraph": "Your ad is under review and within 24 hours it will be published on SoulPrime. Pay attention to your notifications!",
+    "published-ads-boleto-title": "Waiting for payment!",
+    "published-ads-boleto-paragraph": "Your advertisement is under review, and it will be published within 24 hours. Please stay alert to your notifications!",
+
+    "notFound-title-h2": "Oops, the page was not found!",
+    "notFound-container-paragraph": "Sorry, the page could not be found or has been removed. We recommend that you go back to the SoulPrime home page or maybe our support can help you!",
+    "notFound-container-button-page": "Back to home page",
+    "notFound-container-button-support": "Talk to our support",
+
+    "pageInternal-container-title-h2": "Oops, an error occurred!",
+    "pageInternal-container-text-paragraph": "But don't worry because we are already working on the fix. We recommend that you go back to the previous page or maybe our support can help you!",
+    "pageInternal-button-page": "Back to previous page",
+
+    "wallet-title": "Your Wallet",
+    "wallet-company": "Your organization",
+    "wallet-balance": "Balance",
+    "wallet-nfts": "My NFTs",
+
+    "tokenPage-section-introductory-title": "is the governance logo for SoulPrime,",
+    "tokenPage-section-introductory-text": "We are a SocialFi - a web3 social network with finance and a unique proposal to monetize your time on the platform.",
+    "tokenPage-section-introductory-buttons": "Coming soon",
+    "tokenPage-section-introductory-button-buy": "Buy PRT",
+    "tokenPage-section-introductory-button-trade": "Trade",
+
+    "tokenPage-section-technical-description-title": "Technical description",
+    "tokenPage-section-technical-description-response": "The PRT Token was created on ERC-20 ( Ethereum Request for Comment 20) in the standard used on the Ethereum platform for creating fungible tokens.",
+
+    "tokenPage-section-smart-contract-title": "Smart Contract",
+    "tokenPage-section-smart-contract-response": "The PRT Token is implemented via a smart contract on the Ethereum blockchain . This contract is written in Solidity programming language and contains the logic for the Token PRT to work.",
+    "tokenPage-section-smart-contract": "Contract",
+    "tokenPage-section-smart-contract-copy": "Copy",
+    "tokenPage-section-smart-contract-access": "Access",
+
+    "tokenPage-section-advantages-title": "Advantages of the PRT token",
+    "tokenPage-section-advantages-web-title": "The web3",
+    "tokenPage-section-advantages-web-text": "SoulPrime 's mission is to evangelize all web2 users, showing them the advantages of web3, we are a web2.5, in a simple way we present the web3 world with a social network that monetizes you for it ",
+    "tokenPage-section-advantages-proposal-title": "The proposal",
+    "tokenPage-section-advantages-proposal-text": "By viewing ads consumed on the SoulPrime platform , the user receives the usability token in Stablecoin format . In possession of your Stablecoin , the user can exchange it for the PRT Token at any time within the platform. The customer can purchase the PRT Token at any partner exchange , such as Mercado Bitcoin (MB) and exchange it for fiduciary currency when you want to make your withdrawals.",
+    "tokenPage-section-advantages-governance-title": "Governance",
+    "tokenPage-section-advantages-governance-text": "The PRT Token guarantees the right to participate in voting and decisions within the network, with voting weight according to the locked time , voting can occur for the following subjects:",
+    "tokenPage-section-advantages-governance-list-one": "Participation in polls to decide changes to the platform such as layout and integrations.",
+    "tokenPage-section-advantages-governance-list-two": "Participation in polls to decide changes in the monetization structure of the user base and content creators.",
+    "tokenPage-section-advantages-governance-list-three": "Participation in polls to decide on launching new incentive programs.",
+    "tokenPage-section-advantages-governance-list-five": "The governance and voting system will commence on August 30, 2023, on our website",
+
+    "tokenPage-section-info-topics-one-title": "Asset name:",
+    "tokenPage-section-info-topics-two-title": "Asset ticker:",
+    "tokenPage-section-info-topics-three-title": "Modality/Network:",
+    "tokenPage-section-info-topics-four-title": "Market Segment:",
+    "tokenPage-section-info-topics-five-title": "Token supply:",
+    "tokenPage-section-info-topics-five-response": "500 million PRT Tokens :",
+
+    "tokenPage-section-buy-title": "Why buy PRT",
+    "tokenPage-section-buy-paragraph": "*Governance and staking will begin starting from August 30, 2023.",
+    "tokenPage-section-buy-text-title-one": "Unreleased token",
+    "tokenPage-section-buy-text-paragraph-one": "SoulPrime 's Unreleased Governance Token, a legitimate SocialFI.",
+    "tokenPage-section-buy-text-title-two": "Voting power",
+    "tokenPage-section-buy-text-paragraph-two": "Voting power in platform decisions for token holders.",
+    "tokenPage-section-buy-text-title-three": "Earn income",
+    "tokenPage-section-buy-text-paragraph-three": "Token holder can earn monthly income in our staking program (passive income).",
+    "tokenPage-section-buy-text-title-four": "Trade assets",
+    "tokenPage-section-buy-text-paragraph-four": "Trade the asset easily and transparently on our platform or on MB with the advantages of blockchain technology .",
+
+    "tokenPage-section-doubts-title": "FAQ screen",
+    "tokenPage-section-doubts-accordion-one-title": "How to buy and sell the token PRT?",
+    "tokenPage-section-doubts-accordion-one-text": "How to buy and sell the PRT token? The PRT token can be traded on the",
+    "tokenPage-section-doubts-accordion-one-text-two": "(MB), as well as partner DEX and CEX platforms of SoulPrime. Please refer to the list of partners on our website.",
+    "tokenPage-section-doubts-accordion-one-text-date": "*Governança e staking começarão a partir do dia 30 de agosto de 2023.",
+    "tokenPage-section-doubts-accordion-two-title": "What is the value of the token PRT?",
+    "tokenPage-section-doubts-accordion-two-text": "The PRT token is a token traded in the crypto market and follows the daily volatility of the market, similar to the traditional stock market. It does not have a defined fixed value , subject to volatility by supply and demand from investors",
+    "tokenPage-section-doubts-accordion-three-title": "How can I participate in SoulPrime staking with the token PRT?",
+    "tokenPage-section-doubts-accordion-three-text": "Users who have a PRT token in their wallet are eligible to participate in SoulPrime 's monthly income program; See information about staking (savings) on our website.",
+    "tokenPage-section-doubts-accordion-three-text-date": "*The starting from August 30, 2023.",
+
+    "about-us-modal": "About Us",
+    "contact-us-modal": "Contact Us",
+    "close": "Close",
+
+    "paragraph-one": "We are the new web3 social network that rewards content creators and users. We gathered the best of all existing social networks in one place with tools that only SoulPrime has!",
+
+    "paragraph-two": "The year 2004 was quite representative with regard to the emergence of new concepts aimed at the use of technology, mainly the Internet. It was in that same year that social networks began to emerge. They all have one thing in common: personal information like name, address, social security number, and credit card number. All of this is marketed to advertisers, turning users into valuable products for these companies.",
+
+    "paragraph-three": "SoulPrime came to change that, It has blockchain technology. This type of structure is based on the transparency, immutability and encryption of our information, solving one of the major current problems: the manipulation of user data. Therefore, with SoulPrime your interests will no longer be products. Come enjoy web3, the new era of the internet, where you own your information and will always be monetized for it!",
+
+    "title-token": "Our Token",
+    "title-prt": "Prime Token Governance Token (PRT)",
+
+    "token-span-one": "1. Asset name: ",
+    "token-paragraph-one": "Prime Token",
+
+    "token-span-two": "2. Asset ticker: ",
+    "token-paragraph-two": "PRT",
+
+    "token-span-three": "3. Modality/Network: ",
+    "token-paragraph-three": "ERC- 20 | Ethereum",
+
+    "token-span-four": "4. Market Segment: ",
+    "token-paragraph-four": "Web 3, SocialFi, NFT",
+
+    "token-span-five": "5. Token supply: ",
+    "token-paragraph-five": "500 million PRT Tokens",
+
+    "token-span-six": "6. Technical description: ",
+    "token-paragraph-six": "The PRT Token was created in ERC-20 (Ethereum Request for Comment 20) in the standard used in the Ethereum platform for creating fungible tokens.",
+
+    "token-span-seven": "7. Smart Contract: ",
+    "token-paragraph-seven": "The PRT Token is implemented through a smart contract on the Ethereum blockchain. This contract is written in Solidity programming language and contains the logic for the Token PRT to work.",
+
+    "token-span-eight": "8. How the customer is paid: ",
+    "token-paragraph-eight": "By viewing ads consumed on the SoulPrime platform, the user receives the usability token in Stablecoin format. In possession of his Stablecoin, the user can exchange for the PRT Token at any time within the platform. The customer can purchase the PRT Token at any partner exchange, such as the Bitcoin Market (MB) and exchange it for fiduciary currency when he wants to make his withdrawals.",
+
+    "token-span-nine": "9. The right of governance of its holders: ",
+    "token-paragraph-nine": "The PRT Token guarantees the right to participate in voting and decisions within the social network, with voting weight according to the locked time. Voting may take place on the following matters: ",
+
+    "list-one": "Participation in polls to decide changes to the platform such as layout and integrations.",
+
+    "list-two": "Participation in polls to decide changes in the monetization structure of the user base and content creators.",
+
+    "list-three": "Participation in polls to decide on launching new incentive programs.",
+
+    "alert-error-transaction-title": "Oops! We encountered a small hiccup...",
+    "alert-error-transaction-text": "We had a problem with the transaction. Check your details and try again.",
+    "alert-error-transaction-button": "Retry",
+
+    "alert-denied-transaction-title": "Oops! Your transaction has been denied!",
+    "alert-denied-transaction-text": "Check your details and make sure they are correct.",
+    "alert-denied-transaction-button": "Retry",
+
+    "alert-advertiser-title": "Become an advertiser now!",
+    "alert-advertiser-text": "Add your CPF or CNPJ and have access to the Dashboard and Ads.",
+
+    "alert-signUp-title": "There was an error creating your account, please try again later.",
+
+    "alert-generic-text": "Something went wrong... but we'll fix it! Try again later!",
+
+    "Não foi passado nenhum campo para fazer a associação": "No field was passed to make the association",
+    "Não foi encontrado nenhum usuário com este id.": "No user was found with this id.",
+    "Esse anúncio é inválido.": "This ad is invalid.",
+    "Não foi encontrado nenhum ad com este id.": "No ad was found with this id.",
+    "Não foi possível adicionar a conversão.": "Unable to add conversion.",
+    "Essa não! Um error interno aconteceu!": "Not that one! An internal error has occurred!",
+    "Você precisa preencher todos os campos.": "You need to fill in all fields.",
+    "Não foi encontrado nenhum usuário.": "No user found.",
+    "A conta que você está tentando usar para comprar o anúncio não foi encontrada. Por favor, verifique se a conta existe e tente novamente.": "The account you are trying to use to purchase the ad cannot be found. Please verify that the account exists and try again.",
+    "O link fornecido é muito grande.": "The provided link is too long.",
+    "Não foi encontrado o pagamento do anúncio.": "Ad payment not found.",
+    "Nenhum anúncio foi selecionado.": "No ad has been selected.",
+    "Você precisa selecionar uma conta associada.": "You need to select an associated account.",
+    "Não foi possível puxar as views por gênero.": "Unable to pull views by gender.",
+    "Não foi possível puxar as impressões.": "Unable to pull prints.",
+    "Não foi encontrado nenhum anúncio.": "No ad was found.",
+    "Código invalido!": "Invalid code!",
+    "Não foi possível resetar sua senha.": "Unable to reset your password.",
+    "Você precisa informar o email.": "You need to enter the email.",
+    "Não foi encontrado nenhum usuário com este email.": "No user found with this email.",
+    "Não foi possível enviar o email.": "Unable to send email.",
+    "O formato do CPF ou CNPJ é inválido.": "CPF or CNPJ format is invalid.",
+    "Já existe um usuário com esse CPF ou CNPJ.": "A user with this CPF or CNPJ already exists.",
+    "Não foi possível atualizar o usuário": "Unable to update user.",
+    "Este username já está sendo utilizado.": "This username is already in use.",
+    "Insira o username desejado.": "Enter the desired username.",
+    "Username Atualizado com sucesso!": "Username Updated Successfully!",
+    "Esse nickname é inválido": "This nickname is invalid.",
+    "Já existe um usuário cadastrado com este nickname": "There is already a registered user with this nickname.",
+    "Nickname disponível para uso.": "Nickname available for use.",
+    "Sua transação foi negada.": "Your transaction was declined."
+  }
+}

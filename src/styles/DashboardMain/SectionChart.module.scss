@@ -1,0 +1,276 @@
+.sectionChart {
+  margin-top: 37px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+  justify-content: space-between;
+
+  .sectionChartPie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 24px 48px;
+    gap: 16px;
+    width: 600px;
+    height: 345px;
+    background: #ffffff;
+    border: 1px solid rgba(159, 154, 168, 0.25);
+    border-radius: 24px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 40px;
+      margin-bottom: -20px;
+      width: 600px;
+      height: 233.86px;
+
+      p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #09090d;
+      }
+
+      .chartText {
+        display: flex;
+        align-items: flex-start;
+        width: 90%;
+
+        h3 {
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 18px;
+          line-height: 150%;
+          color: #000631;
+        }
+      }
+    }
+  }
+
+  .sectionChartLine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 580px;
+    height: 345px;
+
+    .chartLineContainerMain {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 36px 48px;
+
+      width: 600px;
+      height: 157px;
+
+      background: #ffffff;
+      border: 1px solid rgba(159, 154, 168, 0.25);
+      border-radius: 24px;
+
+      .chartLineContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        gap: 130px;
+
+        width: 507.14px;
+        height: 87.86px;
+
+        .chartLine {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-end;
+          padding: 0px;
+          gap: 18px;
+
+          width: 147.14px;
+          height: 87.86px;
+
+          .chartLineText {
+            font-family: 'DM Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14.3556px;
+            line-height: 19px;
+            /* identical to box height */
+
+            color: #3b96fc;
+
+            .textEmpyLine {
+              color: var(--neutral-neutral-1000, #09090d);
+              /* Body/Body - regular 16 */
+              font-size: 16px;
+              font-family: Inter;
+              line-height: 150%;
+            }
+          }
+        }
+        .chartLineText {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 0px;
+          gap: 24px;
+
+          h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 150%;
+            color: #000631;
+          }
+          p {
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 135%;
+            color: #3b96fc;
+          }
+          .textEmpyLine {
+            color: var(--neutral-neutral-1000, #09090d);
+            /* Body/Body - regular 16 */
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Inter, sans-serif;
+            line-height: 150%;
+          }
+
+          .chartLineTextClick {
+            margin-left: 20px;
+          }
+        }
+        .emptychartLine {
+          width: 50px;
+          height: 50px;
+        }
+      }
+      #chartLineContainer {
+        gap: 70px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+  .sectionChart {
+    gap: 80px;
+    width: 100%;
+    .sectionChartPie {
+      gap: 10px;
+      width: 500px;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        margin-bottom: -20px;
+        width: 200px;
+      }
+    }
+    .sectionChartLine {
+      .chartLineContainerMain {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 36px 48px;
+
+        width: 100%;
+        height: 157px;
+      }
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .sectionChart {
+    gap: 80px;
+    width: 100%;
+    .sectionChartPie {
+      gap: 10px;
+      width: 300px;
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        margin-bottom: -20px;
+        width: 200px;
+      }
+    }
+
+    .sectionChartLine {
+      gap: 24px;
+      width: 400px;
+      height: 325px;
+
+      .chartLineContainerMain {
+        width: 400px;
+        height: 157px;
+
+        .chartLineContainer {
+          gap: 80px;
+          width: 300px;
+
+          .chartLine {
+            gap: 18px;
+            width: 147.14px;
+            height: 87.86px;
+          }
+          .chartLineText {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 20px;
+
+            h3 {
+              font-family: 'Montserrat', sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 18px;
+              line-height: 150%;
+              color: #000631;
+            }
+            p {
+              font-family: 'Montserrat', sans-serif;
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 135%;
+              /* or 32px */
+              color: #3b96fc;
+            }
+
+            .chartLineTextClick {
+              margin-left: 20px;
+            }
+          }
+        }
+        #chartLineContainer {
+          gap: 10px;
+        }
+      }
+    }
+  }
+}

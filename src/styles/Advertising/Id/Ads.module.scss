@@ -1,0 +1,197 @@
+@import '../../colors/colors.scss';
+.containerMain {
+  margin-top: 32px;
+  width: 100%;
+  height: 852px;
+  .mainAds {
+    display: flex;
+    flex-direction: column;
+    margin: 0 8%;
+
+    .headerAds {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      nav {
+        button {
+          background-color: transparent;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0px 8px 0px 0px;
+          gap: 8px;
+          cursor: pointer;
+          p {
+            width: 74px;
+            height: 24px;
+            font-family: 'Open Sans', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+
+            text-align: center;
+            color: #ba02c9;
+          }
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        h1 {
+          width: auto;
+          height: 43px;
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 135%;
+          color: #232231;
+        }
+      }
+    }
+    .containerSections {
+      margin-top: 52px;
+      display: flex;
+    }
+  }
+}
+
+.modalEdit {
+  margin: 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .modalEditText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0px;
+    gap: 24px;
+
+    height: 175px;
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 135%;
+      color: #6d6382;
+    }
+    input {
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 12px 16px;
+      gap: 10px;
+
+      width: 381px;
+      height: 48px;
+
+      background: rgba(255, 255, 255, 0.6);
+
+      border: 1px solid #b7b6ba;
+      border-radius: 8px;
+      outline: none;
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #636269;
+    }
+    div {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 18px;
+      p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #6d6382;
+        width: 321px;
+      }
+    }
+  }
+
+  .modalEditButton {
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+
+    .buttonCancel {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 15px;
+      gap: 10px;
+      width: 92px;
+      height: 41px;
+      border-radius: 4px;
+      border: none;
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: #ba02c9;
+      cursor: pointer;
+    }
+    .buttonSave {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 16px 32px;
+      gap: 8px;
+      width: 185px;
+      height: 53px;
+
+      background: $gradientMain;
+      border-radius: 100px;
+      border: none;
+
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .containerMain {
+    .mainAds {
+      margin: 0 15%;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .containerMain {
+    .mainAds {
+      margin: 0 4%;
+    }
+  }
+}

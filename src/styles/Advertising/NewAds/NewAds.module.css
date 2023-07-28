@@ -1,0 +1,14 @@
+.containerNewAds .headerAds {
+  display: flex;
+  align-items: flex-start;
+  width: 85vw;
+  margin: 40px auto;
+}
+.containerNewAds .headerAds h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 135%;
+  color: #000631;
+}/*# sourceMappingURL=NewAds.module.css.map */

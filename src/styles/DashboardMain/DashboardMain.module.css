@@ -1,0 +1,58 @@
+.dashboardContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 12%;
+}
+.dashboardContainer .dashboardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
+  height: 53px;
+}
+.dashboardContainer .dashboardHeader h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 135%;
+  color: #212855;
+}
+.dashboardContainer .dashboardHeader button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 32px;
+  gap: 8px;
+  width: 197px;
+  height: 53px;
+  /* Gradient/gradient-2 */
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 1500px) and (min-width: 768px) {
+  .dashboardContainer {
+    margin: 0 8%;
+  }
+}
+@media (max-width: 780px) {
+  .dashboardContainer {
+    margin: 0 4%;
+  }
+}/*# sourceMappingURL=DashboardMain.module.css.map */

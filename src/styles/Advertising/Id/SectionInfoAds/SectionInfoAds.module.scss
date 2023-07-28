@@ -1,0 +1,187 @@
+.sectionMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 49px;
+  gap: 32px;
+
+  height: 852px;
+
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  .containerInfoAd {
+    display: flex;
+    width: 100%;
+    div {
+      display: flex;
+      padding: 7px 16px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 25px;
+
+      span {
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 18px */
+      }
+    }
+    .adApproved {
+      border: 1px solid #a6f4dc;
+      background: #d6faef;
+      span {
+        color: #5b8679;
+      }
+    }
+    .adUnderReview {
+      border: 1px solid #ffcfaa;
+      background-color: #fff5e7;
+      span {
+        color: #b58339;
+      }
+    }
+    .adDisapproved {
+      border: 1px solid #ff758e;
+      background-color: #ffd4dc;
+
+      span {
+        color: #b55365;
+      }
+    }
+  }
+  .contianerImage {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    width: 288px;
+    height: 388px;
+
+    video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .containerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 150%;
+      color: #232231;
+    }
+    .containerDateText {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px;
+      gap: 8px;
+      width: 100%;
+      background: #ffffff;
+      border-radius: 10px;
+      .dateText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        div {
+          display: flex;
+          align-items: center;
+          padding: 8px;
+          background: #fadbfd;
+          border-radius: 6px;
+        }
+        h3 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #636269;
+        }
+      }
+      p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #636269;
+      }
+    }
+    .containerGoalText {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 16px;
+      gap: 16px;
+
+      width: 100%;
+      height: 171px;
+      background: #ffffff;
+      border-radius: 10px;
+
+      .goalText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 100%;
+        div {
+          gap: 16px;
+          display: flex;
+          align-items: center;
+          padding: 8px;
+          background: #fadbfd;
+          border-radius: 6px;
+        }
+        h3 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #636269;
+        }
+      }
+      .trafficGoalText {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 4px;
+        width: 250px;
+        h4 {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 150%;
+          color: #636269;
+          width: 100%;
+        }
+        p {
+          font-family: 'Inter', sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #636269;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
