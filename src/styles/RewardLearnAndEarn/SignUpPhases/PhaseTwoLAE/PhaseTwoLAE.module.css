@@ -1,0 +1,95 @@
+.sectionPhaseTwo {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+  flex-direction: column;
+}
+.sectionPhaseTwo .containerMain {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.sectionPhaseTwo .containerMain div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.sectionPhaseTwo .containerMain div p {
+  color: #09090d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.sectionPhaseTwo .containerMain div .radioGroup {
+  width: 100%;
+}
+.sectionPhaseTwo .containerMain div .radioGroup label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+.sectionPhaseTwo .containerMain div .radioGroup label p {
+  width: 100%;
+  color: #45444c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.sectionPhaseTwo .containerButton {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.sectionPhaseTwo .containerButton #buttonBack {
+  display: flex;
+  width: 148px;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #f3f3f3;
+  cursor: pointer;
+  color: #ba02ca;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.sectionPhaseTwo .containerButton #buttonContinue {
+  display: flex;
+  width: 264px;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  cursor: pointer;
+}
+.sectionPhaseTwo .containerButton #buttonContinue:disabled {
+  opacity: 0.5;
+}/*# sourceMappingURL=PhaseTwoLAE.module.css.map */

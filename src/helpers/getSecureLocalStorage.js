@@ -7,4 +7,4 @@ const getSecureLocalStorage = async () => {
   return infoUser;
 };
 
-export default getSecureLocalStorage;
+export default await getSecureLocalStorage;

@@ -20,3 +20,121 @@ $gradientBackground: linear-gradient(
   color: transparent;
   background-clip: text;
 }
+
+@mixin buttonMain {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 8px;
+  button {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: $gradientMain;
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}
+
+@mixin buttonMain {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 8px;
+  button {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: $gradientMain;
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}
+
+@mixin buttonContinue {
+  #buttonContinue {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: $gradientMain;
+    color: #fff;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}
+
+@mixin buttonBack {
+  #buttonBack {
+    display: flex;
+    width: 148px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #f3f3f3;
+    cursor: pointer;
+
+    color: #ba02ca;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+}
+
+@mixin buttonPhases {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  @include buttonBack;
+  @include buttonContinue;
+}

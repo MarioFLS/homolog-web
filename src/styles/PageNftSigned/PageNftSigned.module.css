@@ -1,0 +1,249 @@
+.container {
+  background: linear-gradient(180deg, #fff 0%, #feeffb 100%);
+}
+
+.contentContainer {
+  margin: 0% 8%;
+}
+
+.mainContentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 8%;
+}
+
+.mainContentContainer .mainInfoContainer {
+  flex: 1;
+}
+
+.mainContentContainer .mainInfoContainer h1 {
+  color: #6a00a6;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 73.6px */
+
+  max-width: 470px;
+}
+
+.mainContentContainer .mainInfoContainer h1 .mainGradient {
+  background: var(
+    --gradient-gradient-2,
+    linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainContentContainer .mainInfoContainer p {
+  margin-top: 48px;
+  max-width: 535px;
+  color: var(--neutral-neutral-700, #45444c);
+
+  /* Body/Body - regular 18 */
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.mainContentContainer .mainInfoContainer .mainInfoContainerButtons {
+  margin-top: 64px;
+}
+
+.mainInfoContainerButtons .storeButton img {
+  width: 193px;
+}
+
+.mainInfoContainerButtons .storeButton:last-child {
+  margin-left: 32px;
+}
+
+.howWorksNFTIncome {
+  margin: 15% 0%;
+}
+
+.howWorksNFTIncomeContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer h2 {
+  color: #6a00a6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 55.2px */
+}
+
+.howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer p {
+  max-width: 100%;
+  margin-top: 24px;
+  color: var(--neutral-neutral-700, #45444c);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.numbersCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numberCardContainer {
+  width: 47%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  border-radius: 16px;
+  margin-right: 30px;
+  border: 1px solid var(--primary-purple-light, #df8be6);
+  background: var(--neutral-neutral-100, #fff);
+  margin-top: 24px;
+}
+
+.numberCardContainer:nth-child(2), .numberCardContainer:nth-child(4) {
+  margin-right: 0px;
+}
+
+.numbersCards {
+  margin-top: 48px;
+}
+
+
+.numberCardContainer .numberBlockContainer .numberPinkCard {
+  height: 200px;
+  display: flex;
+  padding: 16px 36px;
+  justify-content: center;
+  align-items: center;
+  background-color: #df8be633;
+  border-right: 1px solid #df8be6;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.numberCardContainer .numberCardTextContainer {
+  padding: 16px;
+  padding-left: 24px;
+}
+
+.numberCardContainer .numberCardTextContainer h3 {
+  color: #6a00a6;
+
+  /* Heading Web/heading-24 */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; /* 32.4px */
+}
+
+.numberCardTextContainer p {
+  color: var(--neutral-neutral-700, #45444c);
+
+  /* Body/Body - regular 18 */
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.seeYourNFTContainer {
+  margin: 15% 0%;
+}
+
+.seeYourNFTContainer h2 {
+  margin-bottom: 48px;
+  color: #6a00a6;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 55.2px */
+}
+
+.seeYourNFTContainer ul {
+  list-style: none;
+  display: flex;
+}
+
+.seeYourNFTContainer ul .seeYourNFTCard {
+  width: 32%;
+  padding: 45px;
+  background: white;
+  margin-right: 24px;
+  border-radius: 16px;
+  border: 1px solid #df8be6;
+  background: var(--neutral-neutral-100, #fff);
+}
+
+.seeYourNFTContainer ul .seeYourNFTCard .cardHeader {
+  display: flex;
+  align-items: center;
+}
+
+.seeYourNFTContainer ul .seeYourNFTCard .cardHeader h4 {
+  max-width: 164px;
+  color: #6a00a6;
+  margin-left: 24px;
+
+  /* Heading Web/heading-24 */
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; /* 32.4px */
+}
+
+.seeYourNFTContainer ul .seeYourNFTCard p {
+  margin-top: 24px;
+  color: #000;
+
+  /* Body/Body - regular 18 */
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.downloadTheAppNowContainer {
+  margin: 15% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.donwloadTheAppInfoContainer {
+  flex: 1;
+}
+
+.downloadTheAppNowContainer .donwloadTheAppInfoContainer h2 {
+  color: #6a00a6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 55.2px */
+}
+
+.downloadTheAppNowContainer .donwloadTheAppInfoContainer p {
+  margin-top: 48px;
+  max-width: 487px;
+  color: var(--neutral-neutral-700, #45444c);
+  
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 150%; /* 27px */
+  margin-bottom: 64px;
+}

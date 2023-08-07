@@ -8,6 +8,6 @@ const getUserInformation = async (token, axios) => {
     const { data } = await axios.get(`${baseUrl}/user/info`, { headers });
     return data;
   }
-}
+};
 
 export default getUserInformation;

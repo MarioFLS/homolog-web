@@ -38,6 +38,17 @@ function AppProvider({ children }) {
     cpf: '',
   });
   const [alertInfos, setAlertInfos] = useState({});
+  const [userSignUp, setUserSignUp] = useState({
+    username: "",
+    nickname: "",
+    telephone: "",
+    age: "",
+    email: "",
+    password: "",
+    bio: "",
+    gender: "1",
+    content_creator: true,
+  });
 
   const contextValue = useMemo(
     () => ({
@@ -61,6 +72,8 @@ function AppProvider({ children }) {
       setUserHeader,
       infoBoleto,
       setInfoBoleto,
+      userSignUp,
+      setUserSignUp,
     }),
     [
       ads,
@@ -73,6 +86,7 @@ function AppProvider({ children }) {
       advertisersCpf,
       userHeader,
       infoBoleto,
+      userSignUp,
     ],
   );
 

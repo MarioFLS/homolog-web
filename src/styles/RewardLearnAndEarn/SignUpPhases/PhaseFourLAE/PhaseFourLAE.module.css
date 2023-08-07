@@ -1,0 +1,103 @@
+.sectionPhaseFour {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 40px;
+}
+.sectionPhaseFour article {
+  display: flex;
+  width: 100%;
+  padding: 16px;
+  align-items: flex-start;
+  border-radius: 8px;
+  border: 1px solid #ffcfaa;
+  background-color: #fff5e7;
+  gap: 8px;
+}
+.sectionPhaseFour article p {
+  color: #45444c;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.sectionPhaseFour article p span {
+  font-weight: 700;
+}
+.sectionPhaseFour article p button {
+  color: #ba02c9;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  text-decoration-line: underline;
+  background-color: transparent;
+  cursor: pointer;
+}
+.sectionPhaseFour #containerCode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.sectionPhaseFour #containerCode h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 27px */
+}
+.sectionPhaseFour #containerCode .containerCodeMain .containerInputs {
+  display: flex;
+  align-items: flex-start;
+  gap: 15.5px;
+}
+.sectionPhaseFour #containerCode .containerCodeMain .containerInputs input {
+  display: flex;
+  width: 48px;
+  padding: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #b7b6ba;
+  color: #09090d;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 135%; /* 32.4px */
+}
+.sectionPhaseFour #containerCode .containerCodeMain .containerInputs .inputFilled {
+  border: 1px solid #ba02ca;
+}
+.sectionPhaseFour .containerButton {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  align-items: flex-end;
+  gap: 8px;
+}
+.sectionPhaseFour .containerButton button {
+  display: flex;
+  width: 264px;
+  height: 56px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  cursor: pointer;
+}/*# sourceMappingURL=PhaseFourLAE.module.css.map */

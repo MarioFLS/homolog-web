@@ -1,0 +1,21 @@
+.footerLearnAndEarn {
+  display: flex;
+  width: 100%;
+  padding: 24px 112px;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #fadbfd;
+  h3 {
+    color: #45444c;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+  div {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}

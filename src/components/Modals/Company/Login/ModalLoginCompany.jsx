@@ -104,7 +104,7 @@ function ModalLoginCompany({
             </p>
           </div>
           <div>
-            {errorLogin ? <span>O Email ou senha estão incorretos</span> : null}
+            {errorLogin ? <span>O Email ou senha estão incorretos.</span> : null}
           </div>
         </header>
         <div className={styles.sectionInput}>

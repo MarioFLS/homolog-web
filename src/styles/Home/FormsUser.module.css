@@ -6,7 +6,7 @@
 .sectionContainer {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 50px;
 }
 .sectionContainer .sectionForms {
   box-sizing: border-box;

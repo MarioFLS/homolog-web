@@ -1,0 +1,76 @@
+.modalContainerMain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  border-radius: 24px;
+  background: #ffffff;
+}
+.modalContainerMain div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.modalContainerMain div header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.modalContainerMain div header div {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.modalContainerMain div header h4 {
+  width: 464px;
+  flex-shrink: 0;
+  color: #6a00a6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%; /* 46px */
+}
+.modalContainerMain div header button {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.modalContainerMain div p {
+  width: 464px;
+  color: #45444c;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.modalContainerMain .buttonReturnMb {
+  display: flex;
+  width: 424px;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+}
+.modalContainerMain .buttonReturnMb a {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}/*# sourceMappingURL=ModalLearnAndEarnFailEmail.module.css.map */

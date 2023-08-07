@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
-import styles from '../../styles/Header/HeaderLP/Header.module.css';
-import Logo from '../../assets/Soulprime.png';
+import styles from '../../styles/Header/HeaderAccountManagement/HeaderAccountManagement.module.css';
+import LogoSoulprime from '../../assets/Logo/LogoSoulPrime.png';
 import BR from '../../assets/BR.svg';
 import US from '../../assets/US.svg';
 
@@ -29,7 +29,7 @@ function HeaderAccountManagement() {
       <div className={styles.navbarContainer}>
         <div className={styles.logoContainer}>
           <Link to="/">
-            <img src={Logo} alt="SoulPrime Logo" />
+            <img src={LogoSoulprime} alt="SoulPrime Logo" />
           </Link>
         </div>
         <nav className={styles.navbarButtons}>

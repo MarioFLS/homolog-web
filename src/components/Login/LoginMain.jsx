@@ -124,9 +124,8 @@ function LoginMain() {
             </p>
           ) : null}
           <div>
-            {errorLogin ? <span>O Email ou senha estão incorretos</span> : null}
+            {errorLogin ? <span>O Email ou senha estão incorretos.</span> : null}
           </div>
-
         </div>
         <div className={styles.sectionInput}>
           <div>

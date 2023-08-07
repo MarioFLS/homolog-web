@@ -3,7 +3,7 @@ import { validaCPF, validarCNPJ } from './validateCPFAndCNPJ';
 export const regexEmail = /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
 const validateInputs = (inputs, setInputErro) => {
   const {
-    telephone, password, cpf, name, company, email
+    telephone, password, cpf, name, company, email,
   } = inputs;
 
   // eslint-disable-next-line prefer-regex-literals

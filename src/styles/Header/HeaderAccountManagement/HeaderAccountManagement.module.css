@@ -1,0 +1,479 @@
+.header {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background: #ffffff;
+  border-bottom: 1px solid #fadbfd;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+  height: 100px;
+}
+.header .navbarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 100%;
+  height: 122.33px;
+}
+.header .navbarContainer .logoContainer {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.header .navbarContainer .logoContainer p {
+  width: 280px;
+  height: 23px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #6a00a6;
+}
+.header .navbarContainer .logoContainer img {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 21px;
+}
+.header .navbarContainer .navLinks {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 500px;
+  height: 24px;
+}
+.header .navbarContainer .navLinks a {
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6a00a6;
+}
+.header .navbarContainer .navLinks button {
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6a00a6;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header .navbarContainer .navLinks #tokenSelected {
+  font-weight: 700;
+}
+.header .navbarContainer .navbarButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px;
+  gap: 24px;
+  height: 56px;
+}
+.header .navbarContainer .navbarButtons .navbarCountries {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 122.44px;
+  height: 56px;
+  border: 1px solid #fadbfd;
+  border-radius: 29.1667px;
+}
+.header .navbarContainer .navbarButtons .navbarCountries div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 4.67px;
+  width: 102.44px;
+  height: 34.67px;
+}
+.header .navbarContainer .navbarButtons .navbarCountries div #languageSelected {
+  background: #f3f3f5;
+  border: 1px solid #fadbfd;
+  transition: transform 1s;
+}
+.header .navbarContainer .navbarButtons .navbarCountries div button {
+  box-sizing: border-box;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 12px;
+  width: 48.89px;
+  height: 34.67px;
+  background: #f3f3f5;
+  /* Primary/purple-lighter */
+  border: none;
+  border-radius: 100px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.header .navbarContainer .navbarButtons .navbarCountries div button img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5.83px;
+  width: 24.89px;
+  height: 18.67px;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess {
+  text-decoration: none;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess a {
+  font-size: 14px;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess #buttonNft {
+  width: -moz-max-content;
+  width: max-content;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess .buttonAcess {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 124px;
+  height: 56px;
+  border: 2px solid #6a00a6;
+  border-radius: 50px;
+  background-color: transparent;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #6a00a6;
+  cursor: pointer;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess .buttonAcess a {
+  color: #6a00a6;
+}
+.header .navbarContainer .navbarButtons .linkButtonAcess .buttonAcess:hover {
+  background: linear-gradient(#fdefff, #fdefff) padding-box, linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%), border-box;
+  background-color: rgba(123, 10, 189, 0.5);
+  border-radius: 50px;
+  border: 2px solid transparent;
+}
+.header .navbarContainer .navbarButtons .containerMenu {
+  display: none;
+}
+
+.popoverLogin {
+  background-color: #6a00a6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px;
+  width: 312px;
+  height: 192px;
+  background: #ffffff;
+  border-radius: 16px;
+  gap: 16px;
+  border-radius: 16px;
+}
+.popoverLogin button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 248px;
+  height: 56px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+.popoverLogin #buttonAdvertiser {
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  color: #ffffff;
+}
+.popoverLogin #buttonUser {
+  background: #fdecff;
+  color: #ba02c9;
+}
+
+.modelLogin {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+  width: 100%;
+  height: 409px;
+  background: linear-gradient(146.52deg, rgba(253, 208, 223, 0.075) 2.11%, rgba(223, 139, 230, 0.05) 100%), #ffffff;
+  border: 1px solid #fadbfd;
+  border-radius: 24px;
+}
+.modelLogin .modelText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 424px;
+  height: 81px;
+}
+.modelLogin .modelText span {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: red;
+}
+.modelLogin .modelText h2 {
+  background: linear-gradient(90deg, #ba02c9 1.23%, #ff8a91 71.73%, #ffacac 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 115%;
+}
+.modelLogin .modelText p {
+  width: 326px;
+  height: 27px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #636269;
+}
+.modelLogin .modelText a {
+  font-weight: bold;
+  color: #45444c;
+  border-bottom: 1px solid #45444c;
+}
+.modelLogin .modelInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+  width: 424px;
+  height: auto;
+}
+.modelLogin .modelInput span {
+  margin-left: 10px;
+  margin-top: 0px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: red;
+}
+.modelLogin .modelInput input {
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 10px;
+  width: 424px;
+  height: 48px;
+  border: 1px solid #b7b6ba;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #949398;
+  outline: none;
+}
+.modelLogin .modelInput input:focus {
+  border: 1px solid #ba02ca;
+}
+.modelLogin .modelInput .inputPassword {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  padding: 0;
+  width: 424px;
+  height: 48px;
+  border-radius: 8px;
+  position: relative;
+}
+.modelLogin .modelInput .inputPassword input {
+  background-color: transparent;
+}
+.modelLogin .modelInput .inputPassword button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  display: flex;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.modelLogin .modelButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 8px;
+  width: 424px;
+  height: 56px;
+  background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+  border-radius: 100px;
+  border: none;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.modelLogin .modelButton:disabled {
+  opacity: 0.5;
+}
+
+@media (max-width: 1024px) {
+  .header .navbarContainer .navbarButtons .linkButtonAcess {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .header .navbarContainer .navbarButtons .containerMenu {
+    display: flex;
+    height: 100%;
+  }
+  .header .navbarContainer .navbarButtons .containerMenu .menuButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .header .navbarContainer .navbarButtons .containerMenu .menuButton img {
+    height: 100%;
+  }
+  .header .navbarContainer .navbarButtons .linkButtonAcess {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header .navbarContainer {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  .header .navbarContainer .navLinks {
+    display: none;
+  }
+  .header .navbarContainer .logoContainer p {
+    display: none;
+  }
+  .header .navbarContainer .navbarButtons .linkButtonAcess {
+    display: none;
+  }
+}
+@media (max-width: 550px) {
+  .modelLogin {
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .header .navbarContainer .navLinks {
+    display: none;
+  }
+  .header .navbarContainer .logoContainer {
+    width: 118.67px;
+    height: 33.33px;
+  }
+  .header .navbarContainer .logoContainer img {
+    width: 100%;
+  }
+  .header .navbarContainer nav {
+    width: 69.71px;
+    height: 32px;
+  }
+  .header .navbarContainer nav .navbarCountries {
+    width: 70.54px;
+    height: 32px;
+  }
+  .header .navbarContainer nav .navbarCountries div {
+    width: 58.54px;
+    height: 19.81px;
+  }
+  .header .navbarContainer nav .navbarCountries div button {
+    width: 27.94px;
+    height: 19.81px;
+  }
+  .header .navbarContainer nav .navbarCountries div button img {
+    width: 14.22px;
+    height: 10.67px;
+  }
+  .modelLogin {
+    padding: 5px;
+    width: 320px;
+  }
+  .modelLogin .modelText {
+    width: 300px;
+    line-break: auto;
+    height: auto;
+  }
+  .modelLogin .modelText p {
+    width: 100%;
+  }
+  .modelLogin .modelInput {
+    width: 100%;
+  }
+  .modelLogin .modelInput input {
+    width: 100%;
+  }
+  .modelLogin .modelInput .inputPassword {
+    width: 100%;
+  }
+  .modelLogin .modelButton {
+    width: 100%;
+  }
+}/*# sourceMappingURL=HeaderAccountManagement.module.css.map */

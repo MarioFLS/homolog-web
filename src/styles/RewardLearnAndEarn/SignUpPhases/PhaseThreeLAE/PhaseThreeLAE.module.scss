@@ -1,0 +1,152 @@
+@import '../../../colors/colors.scss';
+.sectionPhaseThree {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 40px;
+  article {
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid #ffcfaa;
+    background-color: #fff5e7;
+    gap: 8px;
+    p {
+      color: #45444c;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+  .containerMainInputs {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    .containerInputs {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      width: 100%;
+      h4 {
+        color: #09090d;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+      }
+      .containerInputsEmail {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 24px;
+        width: 90%;
+        input {
+          display: flex;
+          width: 50%;
+          padding: 12px 16px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 10px;
+          border-radius: 8px;
+          border: 1px solid #b7b6ba;
+          color: #636269;
+          font-family: 'Inter', sans-serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px; /* 150% */
+        }
+        .inputError {
+          border: 2px solid red;
+        }
+      }
+
+      .containerInputsPassword {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        width: 90%;
+        #inputPaswordError {
+          border: 2px solid #ff0000;
+        }
+        #inputConfirmPaswordError {
+          border: 2px solid #ff0000;
+        }
+        .containerInput {
+          display: flex;
+          width: 100%;
+          //justify-content: space-between;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid #b7b6ba;
+
+          input {
+            width: 90%;
+            padding: 12px 16px;
+            border-radius: 8px;
+            color: #949398;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+          .containerButtonPassword {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 0px 10px;
+            button {
+              margin-top: 5px;
+              width: 5%;
+              height: 100%;
+              background-color: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .containerCheckbox {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        gap: 8px;
+
+        p {
+          color: #45444c;
+          font-family: 'Inter', sans-serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%;
+          span {
+            font-weight: 700;
+            text-decoration-line: underline;
+          }
+          small {
+            color: #b55365;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .containerButton {
+    @include buttonPhases;
+  }
+}

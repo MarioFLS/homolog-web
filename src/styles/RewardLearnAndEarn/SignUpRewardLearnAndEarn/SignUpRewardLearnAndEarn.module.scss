@@ -1,0 +1,94 @@
+@import '../../colors//colors.scss';
+
+.containerMain {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+
+  .containerText {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    h1 {
+      color: #6a00a6;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 115%;
+    }
+    p {
+      color: #45444c;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      span {
+        font-weight: 700;
+      }
+    }
+    .containerLogin {
+      p {
+        font-weight: 700;
+      }
+      div {
+        button {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+          background-color: transparent;
+          cursor: pointer;
+          p {
+            color: #ba02c9;
+            text-decoration-line: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .formSignUp {
+    display: flex;
+    width: 53%;
+    //width: 696px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    flex-shrink: 0;
+
+    border-radius: 24px;
+    border: 1px solid #df8be6;
+    background: #ffffff;
+    .headerSteppers {
+      width: 100%;
+      .articleStepper {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        .containerStepper {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .containerStep {
+            padding: 0 0px;
+            max-width: 80px;
+            div {
+              left: auto;
+              span {
+                width: 8.5vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+.containerMain {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.containerMain .containerText {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+.containerMain .containerText h1 {
+  color: #6a00a6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 115%;
+}
+.containerMain .containerText p {
+  color: #45444c;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.containerMain .containerText p span {
+  font-weight: 700;
+}
+.containerMain .containerText .containerLogin p {
+  font-weight: 700;
+}
+.containerMain .containerText .containerLogin div button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.containerMain .containerText .containerLogin div button p {
+  color: #ba02c9;
+  text-decoration-line: underline;
+}
+.containerMain .formSignUp {
+  display: flex;
+  width: 53%;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  border: 1px solid #df8be6;
+  background: #ffffff;
+}
+.containerMain .formSignUp .headerSteppers {
+  width: 100%;
+}
+.containerMain .formSignUp .headerSteppers .articleStepper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerMain .formSignUp .headerSteppers .articleStepper .containerStepper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep {
+  padding: 0 0px;
+  max-width: 80px;
+}
+.containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div {
+  left: auto;
+}
+.containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div span {
+  width: 8.5vw;
+}/*# sourceMappingURL=SignUpRewardLearnAndEarn.module.css.map */

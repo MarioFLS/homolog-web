@@ -2,7 +2,6 @@ import { useEffect } from "react";
 
 function TesteWallet() {
   const doSearch = async () => {
-    console.log(window.ethereum);
     if (!window.ethereum) {
       return console.log('Instale o metamask');
     }

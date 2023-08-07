@@ -35,9 +35,12 @@ import AuthUser from './pages/AuthUser';
 import PasswordRecovery from './pages/PasswordRecovery';
 import TokenPage from './pages/TokenPage';
 import SectionLinkAds from './components/Advertising/SectionLinkAds';
-import TesteWallet from './pages/TestWallet';
+// import TesteWallet from './pages/TestWallet';
+import RewardLearnAndEarn from './pages/RewardLearnAndEarn/RewardLearnAndEarn';
+import LoginRewardLearnAndEarn from './pages/RewardLearnAndEarn/LoginRewardLearnAndEarn';
+import SignUpRewardLearnAndEarn from './pages/RewardLearnAndEarn/SignUpRewardLearnAndEarn';
 
-
+import PageNFTSigned from './pages/PageNFTSigned';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -71,9 +74,15 @@ const router = createBrowserRouter(
         <Route path="password-recovery" element={<PasswordRecovery />} />
       </Route>
       <Route path="prt-governance-experience" element={<TokenPage />} errorElement={<PageInternalError />} />
+      <Route path="nft-signed" element={<PageNFTSigned />} errorElement={<PageInternalError />} />
       <Route path="mb" element={<Navigate to="/" replace />} />
       <Route path="adm" element={<Adm />} errorElement={<PageInternalError />} />
-      <Route path="test" element={<TesteWallet />} errorElement={<PageInternalError />} />
+      <Route path="check/learn-and-earn" element={<RewardLearnAndEarn />} errorElement={<PageInternalError />}>
+        <Route path="login" element={<LoginRewardLearnAndEarn />} />
+        <Route path="sign-up" element={<SignUpRewardLearnAndEarn />} />
+        <Route path="reward" element={<main><h1>Sucesso</h1></main>} />
+      </Route>
+      {/* <Route path="test" element={<TesteWallet />} errorElement={<PageInternalError />} /> */}
       <Route path="*" element={<PageNotFound />} />
     </>,
   ),
@@ -83,6 +92,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
       <RouterProvider router={router} />
     </React.StrictMode>
-    ,
   </AppProvider>,
 );

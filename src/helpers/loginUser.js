@@ -31,4 +31,5 @@ const loginUser = async (inputs, axios, pathname, setCpf, setDisabledButton, set
   }
 };
 
+
 export default loginUser;
