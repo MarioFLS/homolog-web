@@ -64,6 +64,7 @@ function HeaderLP({
           <a href="#homeContact">
             {t("headerLP-contacts")}
           </a>
+          <button type="button" onClick={() => navigate("check/learn-and-earn")}>NFT</button>
         </nav>
         <div className={styles.navbarButtons}>
           <div className={styles.navbarCountries}>
