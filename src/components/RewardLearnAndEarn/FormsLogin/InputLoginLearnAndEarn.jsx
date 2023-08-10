@@ -132,6 +132,7 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
           onChange={({ target }) => setCheckEmail(target.checked)}
           defaultValue={false}
           value={checkEmail}
+          className={styles.checkbox}
           sx={{
             zIndex: 1,
             color: '#BA02C9',

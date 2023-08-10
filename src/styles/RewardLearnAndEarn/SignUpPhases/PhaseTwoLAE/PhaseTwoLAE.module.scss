@@ -49,3 +49,17 @@
     @include buttonPhases;
   }
 }
+
+@media (max-width: 600px) {
+  .sectionPhaseTwo {
+    .containerMain {
+      flex-direction: column;
+      gap: 40px;
+      div {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

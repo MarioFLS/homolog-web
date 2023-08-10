@@ -74,11 +74,70 @@
 }
 .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep {
   padding: 0 0px;
-  max-width: 80px;
+  /*             max-width: 80px; */
+  max-width: 10%;
 }
 .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div {
   left: auto;
 }
 .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div span {
   width: 8.5vw;
+}
+
+@media (min-width: 860px) and (max-width: 970px) {
+  .containerMain .containerText h1 {
+    font-size: 36px;
+  }
+  .containerMain .containerText p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 860px) {
+  .containerMain {
+    width: 93%;
+    flex-wrap: wrap;
+  }
+  .containerMain .containerText {
+    width: 100%;
+  }
+  .containerMain .containerText h1 {
+    font-size: 36px;
+  }
+  .containerMain .containerText p {
+    font-size: 18px;
+  }
+  .containerMain .formSignUp {
+    width: 100%;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep {
+    max-width: 10%;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep .stepLabel {
+    font-size: 0.7em;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div {
+    display: flex;
+    align-items: center;
+    width: 8vw;
+    height: 8vw;
+    top: 0;
+    left: -200%;
+    right: 0;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div span {
+    display: flex;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div span:nth-child(1) {
+    min-width: 18vw;
+  }
+}
+@media (max-width: 600px) {
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div {
+    top: 0;
+    left: -200%;
+    right: 0;
+  }
+  .containerMain .formSignUp .headerSteppers .articleStepper .containerStepper .containerStep div span:nth-child(1) {
+    min-width: 18vw;
+  }
 }/*# sourceMappingURL=SignUpRewardLearnAndEarn.module.css.map */

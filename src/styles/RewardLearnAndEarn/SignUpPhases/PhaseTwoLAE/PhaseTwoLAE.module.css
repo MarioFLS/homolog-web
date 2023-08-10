@@ -71,6 +71,11 @@
   font-weight: 700;
   line-height: 150%;
 }
+@media (max-width: 600px) {
+  .sectionPhaseTwo .containerButton #buttonBack {
+    width: 100%;
+  }
+}
 .sectionPhaseTwo .containerButton #buttonContinue {
   display: flex;
   width: 264px;
@@ -92,4 +97,25 @@
 }
 .sectionPhaseTwo .containerButton #buttonContinue:disabled {
   opacity: 0.5;
+}
+@media (max-width: 600px) {
+  .sectionPhaseTwo .containerButton #buttonContinue {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .sectionPhaseTwo .containerButton {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionPhaseTwo .containerMain {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .sectionPhaseTwo .containerMain div p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=PhaseTwoLAE.module.css.map */

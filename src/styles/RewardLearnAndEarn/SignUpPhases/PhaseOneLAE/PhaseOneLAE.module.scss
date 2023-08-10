@@ -41,6 +41,12 @@
         gap: 10px;
         border-radius: 8px;
         border: 1px solid #b7b6ba;
+        color: #636269;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
       }
     }
     #labelError {
@@ -52,5 +58,29 @@
 
   .containerButton {
     @include buttonMain;
+  }
+}
+
+@media (max-width: 860px) {
+  .sectionPhaseOne {
+    div {
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 40px;
+      label {
+        gap: 16px;
+        p {
+          width: 100%;
+          font-size: 15.5px;
+        }
+        input {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .containerButton {
+      @include buttonMain;
+    }
   }
 }

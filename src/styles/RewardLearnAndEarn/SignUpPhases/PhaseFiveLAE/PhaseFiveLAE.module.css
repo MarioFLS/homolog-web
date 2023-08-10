@@ -89,4 +89,78 @@
 }
 .sectionPhaseFive .containerButton button:disabled {
   opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+  .sectionPhaseFive .containerMainInterests {
+    justify-content: space-between;
+    height: auto;
+  }
+  .sectionPhaseFive .containerMainInterests .containerInterests {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .sectionPhaseFive .containerButton {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .sectionPhaseFive .containerButton button {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+  }
+  .sectionPhaseFive .containerButton button:disabled {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 485px) {
+  .sectionPhaseFive .containerMainInterests {
+    height: auto;
+  }
+  .sectionPhaseFive .containerButton {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .sectionPhaseFive .containerButton button {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+  }
+  .sectionPhaseFive .containerButton button:disabled {
+    opacity: 0.5;
+  }
 }/*# sourceMappingURL=PhaseFiveLAE.module.css.map */

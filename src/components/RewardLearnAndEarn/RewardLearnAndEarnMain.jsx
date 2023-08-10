@@ -28,7 +28,7 @@ function RewardLearnAndEarnMain() {
     <>
       <main className={styles.mainLearnAndEarn}>
         <div className={styles.containerMain}>
-          <header>
+          <header id={styles.headerTitle}>
             <h1>
               Parabéns!
             </h1>
@@ -49,7 +49,7 @@ function RewardLearnAndEarnMain() {
             </div>
           </section>
         </div>
-        <div>
+        <div className={styles.containerImg}>
           <img src={BigLogoSoul} alt="Logo da Soulprime dentro de um hexagono rosa." />
         </div>
       </main>

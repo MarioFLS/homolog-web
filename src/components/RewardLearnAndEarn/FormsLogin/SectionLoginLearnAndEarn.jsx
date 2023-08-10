@@ -30,9 +30,9 @@ function SectionLoginLearnAndEarn() {
           <div className={styles.containerWarning}>
             <img src={IconMailExclamation} alt="Icone de Email com uma exclamação." />
             <div>
-              <p><span>Utiliza e-mails diferentes nas plataformas?</span></p>
+              <p><span>Participou do Aprenda e Ganhe com um e-mail diferente do cadastrado na Soul?</span></p>
               <p>
-                Se você usa e-mails diferentes no MB e SoulPrime, selecione a caixa abaixo para adicionar o e-mail cadastrado na rede social.
+                Se você usou um e-mail diferente no Aprenda e Ganhe, selecione a caixa abaixo para validar o e-mail utilizado no MB.
               </p>
             </div>
           </div>

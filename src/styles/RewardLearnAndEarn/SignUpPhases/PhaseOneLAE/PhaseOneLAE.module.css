@@ -42,6 +42,12 @@
   gap: 10px;
   border-radius: 8px;
   border: 1px solid #b7b6ba;
+  color: #636269;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
 }
 .sectionPhaseOne div #labelError input {
   border: 2px solid #ff0000;
@@ -71,4 +77,54 @@
   font-weight: 700;
   line-height: 150%;
   cursor: pointer;
+}
+.sectionPhaseOne .containerButton button:disabled {
+  opacity: 0.5;
+}
+
+@media (max-width: 860px) {
+  .sectionPhaseOne div {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .sectionPhaseOne div label {
+    gap: 16px;
+  }
+  .sectionPhaseOne div label p {
+    width: 100%;
+    font-size: 15.5px;
+  }
+  .sectionPhaseOne div label input {
+    font-size: 16px;
+  }
+  .sectionPhaseOne .containerButton {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .sectionPhaseOne .containerButton button {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+  }
+  .sectionPhaseOne .containerButton button:disabled {
+    opacity: 0.5;
+  }
 }/*# sourceMappingURL=PhaseOneLAE.module.css.map */

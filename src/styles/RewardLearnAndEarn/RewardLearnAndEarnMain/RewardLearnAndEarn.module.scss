@@ -3,7 +3,6 @@
 .mainLearnAndEarn {
   display: flex;
   width: 80%;
-  height: 617px;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
@@ -15,7 +14,7 @@
     align-items: flex-start;
     gap: 64px;
     flex-shrink: 0;
-    header {
+    #headerTitle {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -57,6 +56,8 @@
       header {
         width: 100%;
         display: flex;
+        flex-direction: column;
+        gap: 16px;
         h3 {
           width: 100%;
           color: #6a00a6;
@@ -133,6 +134,74 @@
     .containerMain {
       header {
         width: 90%;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .mainLearnAndEarn {
+    .containerImg {
+      display: none;
+    }
+    .containerMain {
+      width: 100%;
+      section {
+        width: 100%;
+        div {
+          flex-wrap: wrap;
+          flex-direction: column;
+          gap: 10px;
+          input {
+            width: 100%;
+          }
+          button {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 860px) {
+  .mainLearnAndEarn {
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+    .containerMain {
+      width: 100%;
+      #headerTitle {
+        gap: 5px;
+        h1 {
+          font-size: 36px;
+          width: 100%;
+        }
+        h2 {
+          font-size: 36px;
+        }
+      }
+      section {
+        width: 100%;
+        header {
+          h3 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+        div {
+          width: 100%;
+          flex-wrap: wrap;
+          gap: 20px;
+          input {
+            width: 100%;
+          }
+          button {
+            width: 100%;
+          }
+        }
       }
     }
   }

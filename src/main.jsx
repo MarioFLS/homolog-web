@@ -77,10 +77,9 @@ const router = createBrowserRouter(
       <Route path="nft-signed" element={<PageNFTSigned />} errorElement={<PageInternalError />} />
       <Route path="mb" element={<Navigate to="/" replace />} />
       <Route path="adm" element={<Adm />} errorElement={<PageInternalError />} />
-      <Route path="check/learn-and-earn" element={<RewardLearnAndEarn />} errorElement={<PageInternalError />}>
+      <Route path="aprenda-e-ganhe" element={<RewardLearnAndEarn />} errorElement={<PageInternalError />}>
         <Route path="login" element={<LoginRewardLearnAndEarn />} />
         <Route path="sign-up" element={<SignUpRewardLearnAndEarn />} />
-        <Route path="reward" element={<main><h1>Sucesso</h1></main>} />
       </Route>
       {/* <Route path="test" element={<TesteWallet />} errorElement={<PageInternalError />} /> */}
       <Route path="*" element={<PageNotFound />} />

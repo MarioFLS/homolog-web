@@ -19,9 +19,11 @@ function PhaseFourLAE({ clickContinue }) {
   const loginUser = async () => {
     const dataLogin = await loginMainUser(userSignUp.email, userSignUp.password);
     const infoUser = await getSecureLocalStorage();
-    await axios.put(`${baseUrl}/user/update`, { content_creator: userSignUp.content_creator }, {
-      headers: { Authorization: `Bearer ${infoUser.accessToken}` },
-    });
+    if (userSignUp.content_creator) {
+      await axios.put(`${baseUrl}/user/update`, { content_creator: userSignUp.content_creator }, {
+        headers: { Authorization: `Bearer ${infoUser.accessToken}` },
+      });
+    }
     setGlobalInfoUser(dataLogin);
   };
 

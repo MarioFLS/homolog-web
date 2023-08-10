@@ -1,7 +1,6 @@
 .mainLearnAndEarn {
   display: flex;
   width: 80%;
-  height: 617px;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
@@ -14,13 +13,13 @@
   gap: 64px;
   flex-shrink: 0;
 }
-.mainLearnAndEarn .containerMain header {
+.mainLearnAndEarn .containerMain #headerTitle {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.mainLearnAndEarn .containerMain header h1 {
+.mainLearnAndEarn .containerMain #headerTitle h1 {
   font-family: "Montserrat", sans-serif;
   color: #6a00a6;
   font-size: 64px;
@@ -28,7 +27,7 @@
   font-weight: 700;
   line-height: 115%;
 }
-.mainLearnAndEarn .containerMain header h2 {
+.mainLearnAndEarn .containerMain #headerTitle h2 {
   font-family: "Montserrat", sans-serif;
   color: #6a00a6;
   font-size: 64px;
@@ -36,7 +35,7 @@
   font-weight: 700;
   line-height: 115%;
 }
-.mainLearnAndEarn .containerMain header h2 span {
+.mainLearnAndEarn .containerMain #headerTitle h2 span {
   background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -56,6 +55,8 @@
 .mainLearnAndEarn .containerMain section header {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .mainLearnAndEarn .containerMain section header h3 {
   width: 100%;
@@ -125,5 +126,67 @@
 @media (min-width: 1600px) {
   .mainLearnAndEarn .containerMain header {
     width: 90%;
+  }
+}
+@media (max-width: 900px) {
+  .mainLearnAndEarn .containerImg {
+    display: none;
+  }
+  .mainLearnAndEarn .containerMain {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain section {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain section div {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mainLearnAndEarn .containerMain section div input {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain section div button {
+    width: 100%;
+  }
+}
+@media (max-width: 860px) {
+  .mainLearnAndEarn {
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .mainLearnAndEarn .containerMain {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain #headerTitle {
+    gap: 5px;
+  }
+  .mainLearnAndEarn .containerMain #headerTitle h1 {
+    font-size: 36px;
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain #headerTitle h2 {
+    font-size: 36px;
+  }
+  .mainLearnAndEarn .containerMain section {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain section header h3 {
+    font-size: 24px;
+  }
+  .mainLearnAndEarn .containerMain section header p {
+    font-size: 18px;
+  }
+  .mainLearnAndEarn .containerMain section div {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .mainLearnAndEarn .containerMain section div input {
+    width: 100%;
+  }
+  .mainLearnAndEarn .containerMain section div button {
+    width: 100%;
   }
 }/*# sourceMappingURL=RewardLearnAndEarn.module.css.map */

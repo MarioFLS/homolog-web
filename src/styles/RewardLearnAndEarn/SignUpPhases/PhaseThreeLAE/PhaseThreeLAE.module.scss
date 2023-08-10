@@ -68,7 +68,7 @@
           font-size: 16px;
           font-style: normal;
           font-weight: 400;
-          line-height: 24px; /* 150% */
+          line-height: 24px;
         }
         .inputError {
           border: 2px solid red;
@@ -90,7 +90,6 @@
         .containerInput {
           display: flex;
           width: 100%;
-          //justify-content: space-between;
           align-items: center;
           border-radius: 8px;
           border: 1px solid #b7b6ba;
@@ -134,7 +133,8 @@
           font-style: normal;
           font-weight: 400;
           line-height: 150%;
-          span {
+          a {
+            color: #45444c;
             font-weight: 700;
             text-decoration-line: underline;
           }
@@ -148,5 +148,41 @@
   }
   .containerButton {
     @include buttonPhases;
+  }
+}
+
+@media (max-width: 860px) {
+  .sectionPhaseThree {
+    .containerMainInputs {
+      .containerInputs {
+        .containerInputsEmail {
+          flex-direction: column;
+          width: 100%;
+          input {
+            width: 100%;
+          }
+        }
+
+        .containerInputsPassword {
+          flex-direction: column;
+          width: 100%;
+          .containerInput {
+            input {
+              width: 100%;
+            }
+          }
+        }
+        .containerCheckbox {
+          width: 100%;
+          padding: 0;
+          .checkbox {
+            width: 20px;
+          }
+        }
+      }
+    }
+    .containerButton {
+      @include buttonPhases;
+    }
   }
 }

@@ -36,6 +36,7 @@ function SectionCompany() {
           <div className={styles.containerCompany}>
             <div className={styles.containerCompanyAvatar}>
               <Avatar
+                sx={{ width: "100%", height: "100%" }}
                 className={styles.containerCompanyImg}
                 alt="Icone do Usuário"
                 src={imagem}

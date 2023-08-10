@@ -55,7 +55,7 @@ function SignUpRewardLearnAndEarn() {
         <div className={styles.containerLogin}>
           <p>Já tem cadastro na SoulPrime? </p>
           <div>
-            <button onClick={() => navigate("/check/learn-and-earn/login")} type="button">
+            <button onClick={() => navigate("/aprenda-e-ganhe/login")} type="button">
               <img src={IconLogin} alt="Icone para ir pra login" />
               <p>Acessar minha conta </p>
             </button>

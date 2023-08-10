@@ -65,3 +65,30 @@
     @include buttonMain;
   }
 }
+
+@media (max-width: 1200px) {
+  .sectionPhaseFive {
+    .containerMainInterests {
+      justify-content: space-between;
+      height: auto;
+      .containerInterests {
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+    }
+    .containerButton {
+      @include buttonMain;
+    }
+  }
+}
+
+@media (max-width: 485px) {
+  .sectionPhaseFive {
+    .containerMainInterests {
+      height: auto;
+    }
+    .containerButton {
+      @include buttonMain;
+    }
+  }
+}

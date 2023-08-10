@@ -13,9 +13,111 @@
     font-weight: 700;
     line-height: 150%;
   }
+  #smallTitle {
+    display: none;
+  }
   div {
     display: flex;
     align-items: flex-start;
     gap: 24px;
+  }
+  .containerLinks {
+    a {
+      color: #45444c;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 150%;
+      text-decoration-line: underline;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .footerLearnAndEarn {
+    padding: 15px;
+    justify-content: space-around;
+
+    h3 {
+      font-size: 12px;
+    }
+    div {
+      gap: 12px;
+      a {
+        img {
+          width: 60%;
+        }
+      }
+    }
+    .containerLinks {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .footerLearnAndEarn {
+    padding: 10px;
+    justify-content: space-around;
+    #bigTitle {
+      display: none;
+    }
+    #smallTitle {
+      display: inline;
+      font-size: 0.9em;
+    }
+    h3 {
+      font-size: 10px;
+    }
+    div {
+      gap: 16px;
+      a {
+        width: 20px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1180px) {
+  .footerLearnAndEarn {
+    #bigTitle {
+      display: none;
+    }
+    #smallTitle {
+      display: inline;
+      font-size: 0.9em;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footerLearnAndEarn {
+    padding: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    #bigTitle {
+      font-size: 1em;
+      display: block;
+      text-align: center;
+    }
+    #smallTitle {
+      display: none;
+    }
+    .containerLinks {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      a {
+        width: auto;
+      }
+    }
   }
 }

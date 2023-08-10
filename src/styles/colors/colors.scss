@@ -104,6 +104,11 @@ $gradientBackground: linear-gradient(
       opacity: 0.5;
     }
   }
+  @media (max-width: 600px) {
+    #buttonContinue {
+      width: 100%;
+    }
+  }
 }
 
 @mixin buttonBack {
@@ -128,6 +133,12 @@ $gradientBackground: linear-gradient(
     font-weight: 700;
     line-height: 150%;
   }
+
+  @media (max-width: 600px) {
+    #buttonBack {
+      width: 100%;
+    }
+  }
 }
 
 @mixin buttonPhases {
@@ -137,4 +148,9 @@ $gradientBackground: linear-gradient(
   align-items: flex-end;
   @include buttonBack;
   @include buttonContinue;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 16px;
+  }
 }

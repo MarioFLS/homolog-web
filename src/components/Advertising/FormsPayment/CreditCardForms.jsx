@@ -20,7 +20,7 @@ function CreditCardForms({ nextForm }) {
   const [send, setSend] = useState(true);
   useEffect(() => {
     Iugu.setAccountID(idIugu);
-    Iugu.setTestMode(true);
+    // Iugu.setTestMode(true);
     // "4111111111111111"
   }, []);
 
@@ -75,6 +75,7 @@ function CreditCardForms({ nextForm }) {
       }
       return await axios.post(`${baseUrl}/ads/create`, body, { headers });
     } catch (error) {
+      console.log({ ads: error });
       Swal.fire({
         icon: 'error',
         title: t("alert-error-transaction-title"),
@@ -106,9 +107,6 @@ function CreditCardForms({ nextForm }) {
     };
     try {
       const responseCreateAds = await createAds();
-      if (!responseCreateAds?.error) {
-        nextForm();
-      }
       const adId = responseCreateAds.data.id;
       const { jobId } = responseCreateAds.data;
       const infoUserCredit = secureLocalStorage.getItem("user_information_session") || globalInfoUser.email;
@@ -121,7 +119,7 @@ function CreditCardForms({ nextForm }) {
         amount: newAds.priceInDollar,
 
       }, { headers });
-
+      console.log({ payCreditCard });
       if (payCreditCard?.data?.success === false) {
         const { status } = response.data;
         if (status === 'unauthorized') {
@@ -134,7 +132,11 @@ function CreditCardForms({ nextForm }) {
           setSend(true);
         }
       }
+      if (!responseCreateAds?.error) {
+        nextForm();
+      }
     } catch (error) {
+      console.log({ cartao: error });
       Swal.fire({
         icon: 'error',
         title: t("alert-generic-text"),
@@ -165,10 +167,9 @@ function CreditCardForms({ nextForm }) {
             title: "Algo deu um passo em falso... mas vamos resolver! Verifique seus dados!",
             text: "Erro na compra! Verifique os dados do seu cartão.",
           });
-          setSend(true);
-        } else {
-          generatePay(response.id);
+          return setSend(true);
         }
+        return generatePay(response.id);
       });
     } catch (error) {
       Swal.fire({

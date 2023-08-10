@@ -27,13 +27,13 @@ const ColorlibConnector = styled(StepConnector)(({ theme }) => ({
     border: 0,
     width: 100,
     backgroundColor:
-      theme.palette.mode === 'dark' ? theme.palette.grey[800] : '#eaeaf0',
+      theme.palette.mode === 'dark' ? '#DF8BE6' : '#DF8BE6',
     borderRadius: 1,
   },
 }));
 
 const ColorlibStepIconRoot = styled('div')(({ theme, ownerState }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[700] : '#ccc',
+  backgroundColor: theme.palette.mode === 'dark' ? theme.palette.grey[700] : '#DF8BE6',
   zIndex: 1,
   color: '#fff',
   width: 50,
@@ -76,7 +76,16 @@ export default function SignUpSteppers({ step }) {
       <Stepper alternativeLabel activeStep={step} connector={<ColorlibConnector />} className={styles.containerStepper}>
         {steps.map((label, length) => (
           <Step className={styles.containerStep} key={length}>
-            <StepLabel className={styles.stepLabel} sx={{ fontWeight: 700, fontSize: 30 }} StepIconComponent={ColorlibStepIcon}>{label}</StepLabel>
+            <StepLabel
+              className={styles.stepLabel}
+              sx={{
+                fontWeight: 700,
+                fontSize: 30,
+              }}
+              StepIconComponent={ColorlibStepIcon}
+            >
+              {label}
+            </StepLabel>
           </Step>
         ))}
       </Stepper>

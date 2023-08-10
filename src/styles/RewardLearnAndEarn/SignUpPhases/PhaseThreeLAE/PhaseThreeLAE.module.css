@@ -71,7 +71,7 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 .sectionPhaseThree .containerMainInputs .containerInputs .containerInputsEmail .inputError {
   border: 2px solid red;
@@ -134,7 +134,8 @@
   font-weight: 400;
   line-height: 150%;
 }
-.sectionPhaseThree .containerMainInputs .containerInputs .containerCheckbox p span {
+.sectionPhaseThree .containerMainInputs .containerInputs .containerCheckbox p a {
+  color: #45444c;
   font-weight: 700;
   text-decoration-line: underline;
 }
@@ -168,6 +169,11 @@
   font-weight: 700;
   line-height: 150%;
 }
+@media (max-width: 600px) {
+  .sectionPhaseThree .containerButton #buttonBack {
+    width: 100%;
+  }
+}
 .sectionPhaseThree .containerButton #buttonContinue {
   display: flex;
   width: 264px;
@@ -189,4 +195,105 @@
 }
 .sectionPhaseThree .containerButton #buttonContinue:disabled {
   opacity: 0.5;
+}
+@media (max-width: 600px) {
+  .sectionPhaseThree .containerButton #buttonContinue {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .sectionPhaseThree .containerButton {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 860px) {
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerInputsEmail {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerInputsEmail input {
+    width: 100%;
+  }
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerInputsPassword {
+    flex-direction: column;
+    width: 100%;
+  }
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerInputsPassword .containerInput input {
+    width: 100%;
+  }
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerCheckbox {
+    width: 100%;
+    padding: 0;
+  }
+  .sectionPhaseThree .containerMainInputs .containerInputs .containerCheckbox .checkbox {
+    width: 20px;
+  }
+  .sectionPhaseThree .containerButton {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .sectionPhaseThree .containerButton #buttonBack {
+    display: flex;
+    width: 148px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #f3f3f3;
+    cursor: pointer;
+    color: #ba02ca;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+}
+@media (max-width: 860px) and (max-width: 600px) {
+  .sectionPhaseThree .containerButton #buttonBack {
+    width: 100%;
+  }
+}
+@media (max-width: 860px) {
+  .sectionPhaseThree .containerButton #buttonContinue {
+    display: flex;
+    width: 264px;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%);
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    cursor: pointer;
+  }
+  .sectionPhaseThree .containerButton #buttonContinue:disabled {
+    opacity: 0.5;
+  }
+}
+@media (max-width: 860px) and (max-width: 600px) {
+  .sectionPhaseThree .containerButton #buttonContinue {
+    width: 100%;
+  }
+}
+@media (max-width: 860px) and (max-width: 600px) {
+  .sectionPhaseThree .containerButton {
+    flex-direction: column;
+    gap: 16px;
+  }
 }/*# sourceMappingURL=PhaseThreeLAE.module.css.map */

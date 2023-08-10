@@ -23,16 +23,15 @@
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 73.6px */
+  line-height: 115%;
+  /* 73.6px */
 
   max-width: 470px;
 }
 
 .mainContentContainer .mainInfoContainer h1 .mainGradient {
-  background: var(
-    --gradient-gradient-2,
-    linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%)
-  );
+  background: var(--gradient-gradient-2,
+      linear-gradient(90deg, #8246ce 0%, #ba02c9 50.51%, #eb45aa 100%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -42,13 +41,11 @@
   margin-top: 48px;
   max-width: 535px;
   color: var(--neutral-neutral-700, #45444c);
-
-  /* Body/Body - regular 18 */
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
 }
 
 .mainContentContainer .mainInfoContainer .mainInfoContainerButtons {
@@ -78,7 +75,8 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 55.2px */
+  line-height: 115%;
+  /* 55.2px */
 }
 
 .howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer p {
@@ -89,7 +87,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
 }
 
 .numbersCards {
@@ -109,7 +108,8 @@
   margin-top: 24px;
 }
 
-.numberCardContainer:nth-child(2), .numberCardContainer:nth-child(4) {
+.numberCardContainer:nth-child(2),
+.numberCardContainer:nth-child(4) {
   margin-right: 0px;
 }
 
@@ -117,9 +117,12 @@
   margin-top: 48px;
 }
 
+.numberCardContainer .numberBlockContainer {
+  height: 100%;
+}
 
 .numberCardContainer .numberBlockContainer .numberPinkCard {
-  height: 200px;
+  height: 100%;
   display: flex;
   padding: 16px 36px;
   justify-content: center;
@@ -142,7 +145,8 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 135%; /* 32.4px */
+  line-height: 135%;
+  /* 32.4px */
 }
 
 .numberCardTextContainer p {
@@ -153,7 +157,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
 }
 
 .seeYourNFTContainer {
@@ -168,7 +173,8 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 55.2px */
+  line-height: 115%;
+  /* 55.2px */
 }
 
 .seeYourNFTContainer ul {
@@ -201,7 +207,8 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 135%; /* 32.4px */
+  line-height: 135%;
+  /* 32.4px */
 }
 
 .seeYourNFTContainer ul .seeYourNFTCard p {
@@ -213,7 +220,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
 }
 
 .downloadTheAppNowContainer {
@@ -233,17 +241,252 @@
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 115%; /* 55.2px */
+  line-height: 115%;
+  /* 55.2px */
 }
 
 .downloadTheAppNowContainer .donwloadTheAppInfoContainer p {
   margin-top: 48px;
   max-width: 487px;
   color: var(--neutral-neutral-700, #45444c);
-  
+
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-style: normal;
-  line-height: 150%; /* 27px */
+  line-height: 150%;
+  /* 27px */
   margin-bottom: 64px;
+}
+
+.downloadTheAppNowContainer .mainInfoContainerButtonsDown {
+  display: none;
+}
+
+
+@media (max-width: 1205px) {
+  .mainContentContainer .mainInfoContainer .mainInfoContainerButtons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .mainContentContainer .mainInfoContainer .mainInfoContainerButtons a {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .contentContainer {
+    margin: 0% 2%;
+  }
+
+  .mainContentContainer {
+    flex-wrap: wrap-reverse;
+    gap: 48px;
+  }
+
+  .mainContentContainer .mainInfoContainer {
+    flex: 1;
+  }
+
+  .mainContentContainer .mainInfoContainer h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .mainContentContainer .mainInfoContainer p {
+    text-align: center;
+  }
+
+  .mainContentContainer .mainInfoContainer .mainInfoContainerButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 42px;
+  }
+
+
+  .mainInfoContainerButtons .storeButton:last-child {
+    margin-left: 0;
+  }
+
+
+  .mainContentContainer .mainImageContainer {
+    margin-top: 48px;
+    width: 342px;
+  }
+
+  .mainContentContainer .mainImageContainer img {
+    width: 100%;
+  }
+
+  .howWorksNFTIncomeInfoContainer {
+    width: 100%;
+  }
+
+  .howWorksNFTIncomeContainer {
+    gap: 48px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer p {
+    font-size: 14px;
+  }
+
+  .numbersCards {
+    width: 100%;
+  }
+
+  .numberCardContainer {
+    width: 100%;
+    gap: 8px;
+    height: 215px;
+  }
+
+  .numberCardContainer {
+    margin-right: 0px;
+  }
+
+  .numberCardContainer .numberBlockContainer {
+    height: 100%;
+
+  }
+
+  .numberCardContainer .numberBlockContainer .numberPinkCard {
+    height: 100%;
+    width: 64px;
+  }
+
+  .numberCardContainer .numberCardTextContainer {
+    padding: 8px;
+    padding-left: 0;
+  }
+
+  .numberCardContainer .numberCardTextContainer h3 {
+    font-size: 16px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .numberCardTextContainer p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .seeYourNFTContainer {
+    margin: 15% 0%;
+  }
+
+  .seeYourNFTContainer h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .seeYourNFTContainer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .seeYourNFTContainer ul .seeYourNFTCard {
+    width: 100%;
+  }
+
+  .seeYourNFTContainer ul .seeYourNFTCard .cardHeader {
+    display: flex;
+    align-items: center;
+  }
+
+  .seeYourNFTContainer ul .seeYourNFTCard .cardHeader h4 {
+    max-width: 164px;
+    color: #6a00a6;
+    margin-left: 24px;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+  }
+
+  .seeYourNFTContainer ul .seeYourNFTCard p {
+    font-size: 16px;
+  }
+
+  .downloadTheAppNowContainer {
+    margin: 15% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .donwloadTheAppInfoContainer {
+    flex: 1;
+  }
+
+  .downloadTheAppNowContainer .donwloadTheAppInfoContainer h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .downloadTheAppNowContainer .donwloadTheAppInfoContainer p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .downloadTheAppNow .downloadTheAppNowContainer .donwloadTheAppInfoContainer .mainInfoContainerButtons {
+    display: none;
+  }
+
+  .downloadTheAppNow .downloadTheAppNowContainer .downloadTheAppNowImageContainer {
+    width: 100%;
+  }
+
+  .downloadTheAppNow .downloadTheAppNowContainer .downloadTheAppNowImageContainer img {
+    width: 100%;
+  }
+
+  .downloadTheAppNowContainer .mainInfoContainerButtonsDown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 96px;
+  }
+}
+
+@media (min-width: 700px) {
+  .howWorksNFTIncome .howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer .numbersCards .numberCardTextContainer h3 {
+    font-size: 20px;
+  }
+
+  .howWorksNFTIncome .howWorksNFTIncomeContainer .howWorksNFTIncomeInfoContainer .numbersCards .numberCardTextContainer p {
+    font-size: 20px;
+  }
+
+  .downloadTheAppNow .downloadTheAppNowContainer .donwloadTheAppInfoContainer {
+    align-items: center;
+  }
+
+  .downloadTheAppNow .downloadTheAppNowContainer .donwloadTheAppInfoContainer p {
+    max-width: 100%;
+  }
+
+  .downloadTheAppNowContainer .mainInfoContainerButtonsDown {
+    flex-direction: row;
+  }
 }

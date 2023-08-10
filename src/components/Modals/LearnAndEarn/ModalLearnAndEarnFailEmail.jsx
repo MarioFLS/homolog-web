@@ -21,7 +21,7 @@ function ModalLearnAndEarnFailEmail({ open, modalClose }) {
           <p>Volte para o Mercado Bitcoin e responda o questionário do programa Aprenda e Ganhe para continuar o resgaste do seu NFT na SoulPrime.</p>
         </div>
         <button className={styles.buttonReturnMb} type="button">
-          <a href="http://" target="_blank" rel="noopener noreferrer">Voltar para o Mercado Bitcoin</a>
+          <a href="https://www.mercadobitcoin.com.br/aprenda-e-ganhe/soulprime" target="_blank" rel="noopener noreferrer">Voltar para o Mercado Bitcoin</a>
         </button>
       </div>
     </Modal>

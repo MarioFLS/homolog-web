@@ -316,4 +316,90 @@
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+}
+
+@media (max-width: 860px) {
+  .containerMain {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .containerMain .containerText {
+    width: 100%;
+  }
+  .containerMain .containerText h1 {
+    width: 100%;
+    font-size: 36px;
+  }
+  .containerMain form {
+    width: 100%;
+    padding: 35px;
+  }
+  .containerMain form header h3 {
+    font-size: 24px;
+    line-height: 135%;
+  }
+  .containerMain form section {
+    width: 100%;
+  }
+  .containerMain form section .containerMainWarning {
+    width: 100%;
+  }
+  .containerMain form section .containerMainWarning .containerWarning {
+    width: 100%;
+  }
+  .containerMain form section .containerMainWarning .containerWarning p {
+    font-size: 16px;
+  }
+  .containerMain form section .containerCheckbox .checkbox {
+    width: 20px;
+  }
+  .containerMain form section .containerCheckbox span {
+    width: 20px;
+  }
+  .containerMain form section .containerCheckbox p {
+    font-size: 14px;
+  }
+  .containerMain form .containerCode .containerCodeMain h4 {
+    font-size: 16px;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs input {
+    width: 15%;
+    height: 2em;
+    padding: 0;
+    font-size: 24px;
+  }
+}
+@media (min-width: 500px) and (max-width: 860px) {
+  .containerMain form {
+    width: 100%;
+    padding: 35px;
+  }
+  .containerMain form .containerCode .containerCodeMain h4 {
+    font-size: 16px;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs {
+    width: 65%;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs input {
+    width: 15%;
+    padding: 0;
+    font-size: 24px;
+  }
+}
+@media (min-width: 860px) {
+  .containerMain form {
+    width: 50%;
+  }
+  .containerMain form .containerCode .containerCodeMain h4 {
+    font-size: 16px;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs {
+    width: 100%;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs input {
+    width: 15%;
+    padding: 0;
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=LoginRewardLearnAndEarn.module.css.map */

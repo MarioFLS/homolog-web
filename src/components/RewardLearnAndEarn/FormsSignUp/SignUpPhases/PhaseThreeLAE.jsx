@@ -72,8 +72,9 @@ function PhaseThreeLAE({ clickContinue, clickBack }) {
       <article>
         <img src={IconSparkle} alt="Icone de brilhos" />
         <p>
-          <span>Cliente Mercado Bitcoin</span>
-          , use seu e-mail cadastrado no MB para criar sua conta na rede social da SoulPrime.
+          <span>Cliente Mercado Bitcoin,</span>
+          {" "}
+          use o mesmo e-mail utilizado no formulário do programa Aprenda e Ganhe do MB para criar sua conta aqui na Soul.
         </p>
       </article>
       <div className={styles.containerMainInputs}>
@@ -134,6 +135,7 @@ function PhaseThreeLAE({ clickContinue, clickBack }) {
             <Checkbox
               onChange={({ target }) => setCheckBox(target.checked)}
               checked={checkBox}
+              className={styles.checkbox}
               sx={{
                 zIndex: 1,
                 color: '#BA02C9',
@@ -145,7 +147,17 @@ function PhaseThreeLAE({ clickContinue, clickBack }) {
             <p>
               Ao selecionar a caixa você concorda com nossos
               {' '}
-              <span>Termos, Condições e Política de Privacidade.</span>
+              <a
+                href="https://drive.google.com/file/d/1a8JG_watpoGSoJqggyJxdxBH3U8xVo_r/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Termos, Condições
+              </a>
+              {' '}
+              e
+              {' '}
+              <a href="https://www.soulprime.io/Politica_de_Privacidade_SoulPrime.pdf" target="_blank" rel="noreferrer">Política de Privacidade.</a>
               {' '}
               <small>(Você deve concordar com os termos e condições para continuar)</small>
             </p>
