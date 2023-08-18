@@ -7,7 +7,12 @@
     "main-button-signUp": "Cadastre-se",
     "main-button-advertiser": "Seja anunciante",
 
-    "partners": "Conheça os nossos principais parceiros",
+    "partners-tittle": "Conheça os nossos principais parceiros",
+    "partners-text-aws": "A Amazon Web Services (AWS) é a plataforma de nuvem mais adotada e mais abrangente do mundo, oferecendo mais de 200 serviços completos de datacenters em todo o mundo.",
+    "partners-text-mb": "O Mercado Bitcoin está entre as exchanges mais seguras do mundo, somos uma das maiores plataformas de criptoativos da América Latina.",
+    "partners-text-rpm": "Ready Player Me é uma plataforma de avatar entre jogos para desenvolvedores, criadores e jogadores que tem a missão de derrubar paredes para construir um mundo virtual mais conectado.",
+    "partners-text-fireblock": "A Fireblocks fornece um conjunto de aplicativos para gerenciar operações de ativos digitais e uma plataforma de desenvolvimento completa para construir seus negócios no blockchain.",
+    "partners-text-buttons": "Saiba mais",
 
     "marketplace-h2": "Compre e venda artes digitais",
     "marketplace-p": "Na SoulPrime suas artes digitais valem dinheiro! Use a criatividade para criar NFTs e compartilhe suas coleções com outros artistas no Marketplace.",
@@ -136,6 +141,8 @@
     "sectionAds-ads-forms-placeholder": "Digite o nome da campanha",
     "sectionAds-ads-forms-title-h3": "Selecione a categoria do anúncio",
     "sectionAds-ads-container-title-h3": "Público alvo",
+    "sectionAds-ads-container-target-audience-all-audiences": "Para todos os públicos",
+    "sectionAds-ads-container-target-audience-adult": "Para adultos (+ 18 anos)",
     "sectionAds-ads-container-select-placeholder": "Escolha a categoria",
     "sectionAds-ads-container-placeholder": "Digite um link para o seu anúncio",
 
@@ -145,6 +152,12 @@
     "selectPlan-title-date-h2": "Escolha a categoria do anúncio",
     "selectPlan-label-date": "Selecionar Datas",
     "selectPlan-label-notDate": "Sem data de término",
+
+    "selectLink-title": "Link de direcionamento",
+    "selectLink-button-title": "Título do botão",
+    "selectLink-button-one": "Compre agora",
+    "selectLink-button-two": "Baixe agora",
+    "selectLink-button-three": "Saiba mais",
 
     "firts-ads-text": "Na Soul, seu cliente nunca mais vai esquecer de você! Crie seu primeiro anúncio",
     "firts-ads-button": "Começar",
@@ -158,6 +171,7 @@
     "paymentAds-paragraph-three-b": "Importante:",
     "paymentAds-text-format": " Os formatos recomendados são .mp4, mov, .mpeg com o tamanho máximo de 500MB. Sendo apenas um arquivo por anúncio e a imagem será convertida em vídeo.",
     "paymentAds-button-text": "Selecionar arquivo",
+    "paymentAds-container-ad-added": "Anúncio adicionado",
     "paymentAds-container-loaded": "Arquivo adicionado com sucesso!",
 
     "paymentAds-modal-title-ads": "Por fim, dê um título ao seu anúncio",

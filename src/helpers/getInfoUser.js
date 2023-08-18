@@ -15,7 +15,6 @@ const getInfoUser = async (globalInfoUser) => {
         return await axios.get(`${baseUrl}/user/info`, { headers });
       }
     }
-    //return axios.get(`${baseUrl}/user/info`, { headers });
     return { data: globalInfoUser };
   } catch (error) {
     const infoUser = secureLocalStorage.getItem('user_information_session');
@@ -25,10 +24,9 @@ const getInfoUser = async (globalInfoUser) => {
     };
     if (!globalInfoUser?.id) {
       if (Object.keys(globalInfoUser).length === 0) {
-        return await axios.get(`${baseUrl}/user/info`, { headers });
+        return axios.get(`${baseUrl}/user/info`, { headers });
       }
     }
-    //return axios.get(`${baseUrl}/user/info`, { headers });
     return { data: globalInfoUser };
   }
 };

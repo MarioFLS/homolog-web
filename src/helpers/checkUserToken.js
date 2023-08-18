@@ -6,7 +6,7 @@ const baseUrl = import.meta.env.VITE_APP_BASE_URL_API;
 
 const getUserInformation = () => {
   const userInformation = secureLocalStorage.getItem(
-    'user_information_session'
+    'user_information_session',
   );
   if (!userInformation) {
     throw new Error('Informações do usuário não encontradas.');
@@ -25,7 +25,7 @@ const refreshAccessToken = async (refreshToken) => {
         headers: {
           'X-Skip-Interceptor': true,
         },
-      }
+      },
     );
     return data;
   } catch (error) {
@@ -51,7 +51,7 @@ const checkUserToken = async () => {
 
     if (decodedJwt.exp < currentTime) {
       const { accessToken, refreshToken } = await refreshAccessToken(
-        infoUser.refreshToken
+        infoUser.refreshToken,
       );
       const token = updateUserInfo(infoUser, accessToken, refreshToken.id);
       return token;
@@ -63,7 +63,7 @@ const checkUserToken = async () => {
     secureLocalStorage.removeItem('user_information_session');
     const protectedPaths = ['dashboard', 'advertising', 'wallet'];
     if (protectedPaths.includes(window.location.pathname.split('/')[1])) {
-      //window.location.href = '/';
+      // window.location.href = '/';
     }
     return false;
   }

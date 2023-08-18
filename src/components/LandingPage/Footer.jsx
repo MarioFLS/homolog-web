@@ -27,6 +27,7 @@ function Footer({ setOpen }) {
     }
     setLanguage(linguageStorage);
   });
+
   return (
     <footer className={styles.footer} id="homeContact">
       <div className={styles.footerMain}>
@@ -117,15 +118,19 @@ function Footer({ setOpen }) {
               White Paper
             </a>
             <a
-              href="https://drive.google.com/file/d/1a8JG_watpoGSoJqggyJxdxBH3U8xVo_r/view"
+              href={isLanguage === "pt"
+                ? "https://drive.google.com/file/d/1a8JG_watpoGSoJqggyJxdxBH3U8xVo_r/view"
+                : "https://drive.google.com/file/d/1Uo09ffXQAf7KIQbVw7TzVhBdzYSx8PYE/view?usp=sharing"}
               target="_blank"
               rel="noreferrer"
             >
               {t('terms-of-use')}
             </a>
             <a
-              href="http://www.soulprime.io/Politica_de_Privacidade_SoulPrime.pdf"
-              // target="_blank"
+              href={isLanguage === "pt"
+                ? "https://drive.google.com/file/d/10pLKbDzHoxGHaQyI7Eykf_Z6hHnH_FaT/view"
+                : "https://drive.google.com/file/d/1Neo3V-vJzwZwXOJp2Uz9dKgGYUMBxiJK/view"}
+              target="_blank"
               rel="noreferrer"
             >
               {t('privacy policy')}

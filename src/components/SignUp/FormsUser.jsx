@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable react/jsx-props-no-spreading */
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Checkbox,
 } from '@mui/material';
@@ -20,6 +20,7 @@ const baseUrl = import.meta.env.VITE_APP_BASE_URL_API;
 
 function FormsUser() {
   const { t } = useTranslation();
+  const [isLanguage, setLanguage] = useState('pt');
   const [disabledButton, setDisabledButton] = useState(false);
   const navigate = useNavigate();
   const label = { inputProps: { 'aria-label': 'Checkbox' } };
@@ -78,6 +79,14 @@ function FormsUser() {
       });
     }
   };
+
+  useEffect(() => {
+    const linguageStorage = localStorage.getItem('language');
+    if (!linguageStorage) {
+      return setLanguage('pt');
+    }
+    setLanguage(linguageStorage);
+  });
 
   return (
     <section className={styles.sectionContainer}>
@@ -147,7 +156,9 @@ function FormsUser() {
               <span>
                 Clique aqui para aceitar os
                 <a
-                  href="https://drive.google.com/file/d/1a8JG_watpoGSoJqggyJxdxBH3U8xVo_r/view"
+                  href={isLanguage === "pt"
+                    ? "https://drive.google.com/file/d/1a8JG_watpoGSoJqggyJxdxBH3U8xVo_r/view"
+                    : "https://drive.google.com/file/d/1Uo09ffXQAf7KIQbVw7TzVhBdzYSx8PYE/view?usp=sharing"}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -158,7 +169,9 @@ function FormsUser() {
                 e confirmar que leu a Política de
                 {' '}
                 <a
-                  href="http://www.soulprime.io/Politica_de_Privacidade_SoulPrime.pdf"
+                  href={isLanguage === "pt"
+                    ? "https://drive.google.com/file/d/10pLKbDzHoxGHaQyI7Eykf_Z6hHnH_FaT/view"
+                    : "https://drive.google.com/file/d/1Neo3V-vJzwZwXOJp2Uz9dKgGYUMBxiJK/view"}
                   target="_blank"
                   rel="noreferrer"
                 >

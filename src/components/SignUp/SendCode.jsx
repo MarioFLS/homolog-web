@@ -9,6 +9,7 @@ import axios from "../../interceptors/axiosConfig";
 import styles from '../../styles/SingUp/SendCode/SendCode.module.css';
 import AppContext from '../../Context/AppContext';
 import getSecureLocalStorage from '../../helpers/getSecureLocalStorage';
+import CodeSixOtp from '../Code/CodeSixOtp';
 
 function SendCode() {
   const { t } = useTranslation();
@@ -108,7 +109,7 @@ function SendCode() {
             </button>
           </p>
         </header>
-        <div className={styles.containerCode}>
+        {/* <div className={styles.containerCode}>
           {values.map((value, index) => {
             const id = index;
             return (
@@ -126,7 +127,8 @@ function SendCode() {
               />
             );
           })}
-        </div>
+        </div> */}
+        <CodeSixOtp styles={styles} values={values} setValues={setValues} />
         <button
           className={styles.sendCodeBtn}
           onClick={onClick}

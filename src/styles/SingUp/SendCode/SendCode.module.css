@@ -1,5 +1,4 @@
 .sectionSendCode {
-  margin-top: 300px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -94,7 +93,12 @@
   width: 408px;
   height: 64px;
 }
-.sectionSendCode .containerSendCodeMain .containerCode input {
+.sectionSendCode .containerSendCodeMain .containerCode .containerInputs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sectionSendCode .containerSendCodeMain .containerCode .containerInputs input {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;

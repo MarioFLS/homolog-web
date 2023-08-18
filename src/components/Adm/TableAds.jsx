@@ -41,7 +41,8 @@ function TableAds({ typeAds }) {
 
     return setSelectedAds([]);
   };
-  const getAllAds = async () => {
+
+  /* const getAllAds = async () => {
     const infoUser = await getSecureLocalStorage();
     const headers = {
       Authorization: `Bearer ${infoUser.accessToken}`,
@@ -50,7 +51,7 @@ function TableAds({ typeAds }) {
     const { data: { ads, pages_number } } = await axios.post(`${baseUrl}/adm/ads/all`, { page }, { headers });
     setPagesNumber(pages_number);
     setAdsData(ads);
-  };
+  }; */
 
   function makeUnique(arr, prop) {
     const uniqueSet = new Set();

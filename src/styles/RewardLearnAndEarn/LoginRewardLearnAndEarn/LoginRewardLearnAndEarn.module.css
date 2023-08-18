@@ -259,7 +259,7 @@
   width: 100%;
 }
 .containerMain form .containerCode .containerCodeMain {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -318,7 +318,27 @@
   cursor: pointer;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
+  .containerMain form .containerCode {
+    width: 100%;
+  }
+  .containerMain form .containerCode .containerCodeMain {
+    width: 80%;
+  }
+  .containerMain form .containerCode .containerCodeMain h4 {
+    font-size: 16px;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs {
+    width: 100%;
+  }
+  .containerMain form .containerCode .containerCodeMain .containerInputs input {
+    width: 20%;
+    height: 2em;
+    padding: 0;
+    font-size: 24px;
+  }
+}
+@media (max-width: 900px) {
   .containerMain {
     flex-wrap: wrap;
     flex-direction: column;
@@ -360,6 +380,9 @@
   .containerMain form section .containerCheckbox p {
     font-size: 14px;
   }
+  .containerMain form .containerCode .containerCodeMain {
+    width: 100%;
+  }
   .containerMain form .containerCode .containerCodeMain h4 {
     font-size: 16px;
   }
@@ -387,18 +410,19 @@
     font-size: 24px;
   }
 }
-@media (min-width: 860px) {
-  .containerMain form {
-    width: 50%;
+@media (min-width: 1600px) {
+  .containerMain form .containerCode .containerCodeMain {
+    width: 100%;
   }
   .containerMain form .containerCode .containerCodeMain h4 {
     font-size: 16px;
   }
   .containerMain form .containerCode .containerCodeMain .containerInputs {
-    width: 100%;
+    width: 60%;
   }
   .containerMain form .containerCode .containerCodeMain .containerInputs input {
-    width: 15%;
+    width: 48px;
+    height: 64px;
     padding: 0;
     font-size: 24px;
   }

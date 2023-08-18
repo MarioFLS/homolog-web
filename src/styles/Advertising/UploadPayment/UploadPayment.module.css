@@ -332,6 +332,15 @@
   align-items: center;
   cursor: pointer;
 }
+.containerPaymentAds .sectionLoadedAds .containerLoadedSuccess .containerSizeTitleAds #buttonPreview {
+  color: #09090d;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  text-decoration-line: underline;
+}
 .containerPaymentAds .buttonReturn {
   display: flex;
   align-items: center;

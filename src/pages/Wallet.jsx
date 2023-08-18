@@ -31,8 +31,17 @@ function Wallet() {
     }
   };
   useEffect(() => {
-    (async () => fetchUser())();
-  }, []);
+    const fetchData = async () => {
+      try {
+        if (!globalInfoUser?.id) {
+          return await fetchUser();
+        }
+      } catch (error) {
+        return error;
+      }
+    };
+    fetchData();
+  }, [globalInfoUser]);
   async function getBalanceEhter() {
     const web3Provider = new ethers.providers.JsonRpcProvider('https://polygon-mainnet.g.alchemy.com/v2/guTQ9wHBaJDSnRVDjgo1nL6SSqYLpVWb');
     const walletEther = new ethers.Wallet('e5fd061958ebf2f3e691ee4c6553b664cc34813b8533d5da28d186c54e08ec3e');

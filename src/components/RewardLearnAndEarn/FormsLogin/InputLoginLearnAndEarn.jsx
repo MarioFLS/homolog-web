@@ -2,7 +2,6 @@ import { Checkbox } from "@mui/material";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import secureLocalStorage from "react-secure-storage";
-import Swal from "sweetalert2";
 import EyeViewsWhite from "../../../assets/EyeViewsWhite.svg";
 import EyeViewsOff from "../../../assets/EyeViewsOff.svg";
 import styles from "../../../styles/RewardLearnAndEarn/LoginRewardLearnAndEarn/LoginRewardLearnAndEarn.module.css";
@@ -32,10 +31,6 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
       return await axios.get(`${baseUrl}/user/check_email_nft`, { params: { email } });
     } catch (error) {
       if (error?.response?.data?.error === "Você já possui um NFT registrado!") {
-        Swal.fire({
-          icon: 'error',
-          title: error?.response?.data?.error,
-        });
         return { error: 'REGISTRED' };
       }
       return { error: 'NOTFOUND' };
@@ -53,7 +48,10 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
         return setPage(2);
       }
     } catch (error) {
-      return setSpanEmailMbError("Esse email não possui um NFT");
+      if (error.response.data.error !== "Esse email já está associado ao NFT.") {
+        return setSpanEmailMbError("Esse email não possui um NFT");
+        // return navigate("/nft-signed");
+      }
     }
   };
 
@@ -64,7 +62,7 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
         return checkEmail ? setSpanEmailMbError("Esse email não possui um NFT") : setSpanError("Esse email não possui um NFT");
       }
       const response = await axios.post(`${baseUrl}/user/auth`, {
-        email,
+        email: email?.trim(),
         password,
       }, { params: { nft: true } });
 
@@ -74,7 +72,7 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
         refreshToken: { id, user_id: userId },
       } = response.data;
 
-      if (!checkIfTheEmailHasNft.error) {
+      if (!checkIfTheEmailHasNft.error || checkIfTheEmailHasNft.error === "REGISTRED") {
         await sendEmailCheckEmail(accessToken);
         secureLocalStorage.setItem('user_information_session', {
           email: userEmail,
@@ -84,7 +82,7 @@ function InputLoginLearnAndEarn({ checkEmail, setCheckEmail, setPage }) {
           emailNft: emailMb,
         });
 
-        if (response.status === 200 && spanError === null && !checkEmail) {
+        if (response.status === 200 && spanError === null && (!checkEmail || (email?.trim() === emailMb?.trim()))) {
           return navigate("/nft-signed");
         }
       }

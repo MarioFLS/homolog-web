@@ -75,7 +75,6 @@ function CreditCardForms({ nextForm }) {
       }
       return await axios.post(`${baseUrl}/ads/create`, body, { headers });
     } catch (error) {
-      console.log({ ads: error });
       Swal.fire({
         icon: 'error',
         title: t("alert-error-transaction-title"),
@@ -119,7 +118,6 @@ function CreditCardForms({ nextForm }) {
         amount: newAds.priceInDollar,
 
       }, { headers });
-      console.log({ payCreditCard });
       if (payCreditCard?.data?.success === false) {
         const { status } = response.data;
         if (status === 'unauthorized') {
@@ -136,7 +134,6 @@ function CreditCardForms({ nextForm }) {
         nextForm();
       }
     } catch (error) {
-      console.log({ cartao: error });
       Swal.fire({
         icon: 'error',
         title: t("alert-generic-text"),
@@ -164,8 +161,8 @@ function CreditCardForms({ nextForm }) {
         if (response.errors) {
           Swal.fire({
             icon: 'error',
-            title: "Algo deu um passo em falso... mas vamos resolver! Verifique seus dados!",
-            text: "Erro na compra! Verifique os dados do seu cartão.",
+            title: "Tivemos um problema na compra! Verifique os dados do cartão!",
+            // text: "Verifique os dados do seu cartão.",
           });
           return setSend(true);
         }
@@ -255,9 +252,6 @@ function CreditCardForms({ nextForm }) {
             </label>
           </div>
         </div>
-        {/* <button className={styles.btnNext} onClick={clickButton} type="submit">
-          {t('button-continue')}
-        </button> */}
         {send
           ? (
             <button className={styles.btnNext} onClick={clickButton} type="submit">

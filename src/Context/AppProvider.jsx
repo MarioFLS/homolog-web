@@ -111,7 +111,16 @@ function AppProvider({ children }) {
   };
 
   useEffect(() => {
-    fetchUser();
+    const fetchData = async () => {
+      try {
+        if (!globalInfoUser?.id) {
+          return await fetchUser();
+        }
+      } catch (error) {
+        return error;
+      }
+    };
+    fetchData();
     getAds();
   }, []);
 

@@ -82,7 +82,7 @@ function SectionAds() {
                     }}
                   />
 )}
-                label="Para todos os públicos"
+                label={t('sectionAds-ads-container-target-audience-all-audiences')}
               />
               <FormControlLabel
                 control={(
@@ -97,7 +97,7 @@ function SectionAds() {
                     }}
                   />
 )}
-                label="Para adultos (+ 18 anos)"
+                label={t('sectionAds-ads-container-target-audience-adult')}
               />
             </RadioGroup>
           </div>

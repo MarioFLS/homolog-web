@@ -7,7 +7,12 @@
     "main-button-signUp": "Sign up now",
     "main-button-advertiser": "Be an advertiser",
 
-    "partners": "Get to know our main partners.",
+    "partners-tittle": "Get to know our main partners.",
+    "partners-text-aws": "Amazon Web Services (AWS) is the most widely adopted and comprehensive cloud platform in the world, providing over 200 fully featured services from data centers around the globe.",
+    "partners-text-mb": "Mercado Bitcoin is among the world's safest exchanges, and we are one of the largest crypto asset platforms in Latin America.",
+    "partners-text-rpm": "Ready Player Me is an avatar platform across games for developers, creators, and players, which has the mission to break down walls to build a more connected virtual world.",
+    "partners-text-fireblock": "Fireblocks provides a suite of applications for managing digital asset operations and a comprehensive development platform to build your businesses on the blockchain.",
+    "partners-text-buttons": "Learn more",
 
     "marketplace-h2": "Buy and Sell digital art",
     "marketplace-p": "At SoulPrime, your digital art is worth money! Use your creativity to create NFTs and share your collections with other artists on the Marketplace.",
@@ -135,6 +140,8 @@
     "sectionAds-ads-forms-placeholder": "Enter the name for your campaign",
     "sectionAds-ads-forms-title-h3": "Select ad category",
     "sectionAds-ads-container-title-h3": "Target audience",
+    "sectionAds-ads-container-target-audience-all-audiences": "For all audiences",
+    "sectionAds-ads-container-target-audience-adult": "For over 18 years old",
     "sectionAds-ads-container-select-placeholder": "Choose the category",
     "sectionAds-ads-container-placeholder": "Enter a link to your ad",
 
@@ -144,6 +151,12 @@
     "selectPlan-title-date-h2": "Choose ad category",
     "selectPlan-label-date": "Select Dates",
     "selectPlan-label-notDate": "No end date",
+
+    "selectLink-title": "Targeting link",
+    "selectLink-button-title": "Title to action",
+    "selectLink-button-one": "Buy now",
+    "selectLink-button-two": "Download now",
+    "selectLink-button-three": "Know more",
 
     "firts-ads-text": "At Soul, your client will never forget about you! Create your first advertisement.",
     "firts-ads-button": "Start",
@@ -157,6 +170,7 @@
     "paymentAds-paragraph-three-b": "Important:",
     "paymentAds-text-format": "Recommended formats are .mp4, mov, .mpeg with a maximum size of 500MB. Being only one file per ad and the image will be converted into video.",
     "paymentAds-button-text": "Select file",
+    "paymentAds-container-ad-added": "Ad added",
     "paymentAds-container-loaded": "File added successfully!",
 
     "paymentAds-modal-title-ads": "Finally, give your ad a title",

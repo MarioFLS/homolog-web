@@ -35,7 +35,7 @@ function SectionLinkAds() {
       <section className={styles.sectionCreateAds}>
         <div className={styles.containerAds}>
           <div className={styles.containerAdsInput}>
-            <h3>Link de direcionamento</h3>
+            <h3>{t("selectLink-title")}</h3>
             <input
               value={newAds.link}
               onChange={({ target }) => setNewAds({ ...newAds, link: target.value })}
@@ -44,7 +44,7 @@ function SectionLinkAds() {
             />
           </div>
           <div className={styles.containerAdsInput}>
-            <h3>{t('Título do botão')}</h3>
+            <h3>{t('selectLink-button-title')}</h3>
             <RadioGroup
               name="radio-buttons-group"
             >
@@ -61,7 +61,7 @@ function SectionLinkAds() {
                     }}
                   />
 )}
-                label="Compre agora"
+                label={t("selectLink-button-one")}
               />
               <FormControlLabel
                 control={(
@@ -76,7 +76,7 @@ function SectionLinkAds() {
                     }}
                   />
 )}
-                label="Baixe agora"
+                label={t("selectLink-button-two")}
               />
               <FormControlLabel
                 control={(
@@ -91,7 +91,7 @@ function SectionLinkAds() {
                     }}
                   />
 )}
-                label="Saiba mais"
+                label={t("selectLink-button-three")}
               />
             </RadioGroup>
           </div>

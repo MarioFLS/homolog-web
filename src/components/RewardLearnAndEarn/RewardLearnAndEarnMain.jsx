@@ -20,6 +20,9 @@ function RewardLearnAndEarnMain() {
         return navigate("sign-up");
       }
     } catch (error) {
+      if (error?.response.data.error === "Você já possui um NFT registrado!") {
+        return navigate("/nft-signed");
+      }
       setOpen(true);
     }
   };

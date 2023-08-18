@@ -63,8 +63,17 @@ function HeaderMain() {
 
 
   useEffect(() => {
-    fetchUser();
-  }, []);
+    const fetchData = async () => {
+      try {
+        if (!globalInfoUser?.id) {
+          return await fetchUser();
+        }
+      } catch (error) {
+        return error;
+      }
+    };
+    fetchData();
+  }, [globalInfoUser]);
 
   const ClickCompany = (event) => {
     setAnchorElCompany(event.currentTarget);
